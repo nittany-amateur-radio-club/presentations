@@ -31,14 +31,30 @@ knitr::opts_chunk$set(echo = FALSE,
 ---
 
 - Professor of Psychology
-- Penn State Amateur Radio Club Faculty Advisor
+- Penn State Amateur Radio Club Faculty Advisor, K3CR license trustee
 - [Nittany Amateur Radio Club](https://nittanyarc.net) Mountaintop Clubhouse Co-Manager
 - Ham since June 2016
 
 ## Agenda
 
+- Radio is everywhere
 - A zillion hobbies in one
 - Next steps
+
+# Radio is everywhere
+
+---
+
+```{r}
+knitr::include_graphics("https://icdn6.digitaltrends.com/image/digitaltrends/smartphones-1175-1500x993.jpg")
+```
+
+---
+
+- [Wifi](https://en.wikipedia.org/wiki/List_of_WLAN_channels#:~:targetText=The%20802.11%20standard%20provides%20several,into%20a%20multitude%20of%20channels) (900 MHz, 2.4 GHz, 5 GHz)
+- [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth), (2.45 GHz)
+- [GPS](https://en.wikipedia.org/wiki/GPS_signals), 1575.42 MHz; 1227.60 MHz; 1023 MHz.
+- [Cell/mobile](https://en.wikipedia.org/wiki/Cellular_frequencies), (too many to list!)
 
 # A zillion hobbies in one
 
@@ -70,9 +86,19 @@ knitr::include_graphics("https://i.redd.it/wnn5bygi9lu01.png")
 
 ## Contesting
 
-```{r, out.width="700px"}
+```{r, out.width="800px"}
 knitr::include_graphics("https://1.bp.blogspot.com/-fKyBeZYdRPk/W4BcgOCGxSI/AAAAAAAAEAE/4voRqngLYjQRAjUB3HZDNCh8qoK2C6VVgCLcBGAs/s320/p1.jpg")
 ```
+
+Ria Jairam, N2RJ
+
+---
+
+```{r, out.width="1000px"}
+knitr::include_graphics("img/contest-calendar.jpg")
+```
+
+<https://www.contestcalendar.com/weeklycont.php>
 
 ## World Radiosport
 
@@ -102,10 +128,9 @@ knitr::include_graphics("data:image/webp;base64,UklGRtAYAABXRUJQVlA4IMQYAADwdgCd
 
 ## Atmospheric Science
 
-```{r, out.height="600px"}
+```{r, out.width=="700px"}
 knitr::include_graphics("img/band-conditions.PNG")
 ```
-
 
 ## Emergency/Event Communications
 
@@ -153,6 +178,21 @@ knitr::include_graphics("http://www.highonsolder.com/wp-content/uploads/2017/09/
 knitr::include_graphics("https://heilsound.com/wp-content/uploads/2017/04/IMG_0835.jpg")
 ```
 
+## Build and operate high-power networks
+
+```{r}
+knitr::include_graphics("img/aredn.jpg")
+```
+
+<https://www.arednmesh.org/>
+
+## Operate anywhere!
+
+<iframe src="http://www.remotehamradio.com/" height=550px width=800px>
+</iframe>
+
+<http://www.remotehamradio.com/>
+
 ## Automatic Packet Reporting System (APRS)
 
 <https://aprs.fi/#!addr=state%20college>
@@ -171,8 +211,16 @@ knitr::include_graphics("https://heilsound.com/wp-content/uploads/2017/04/IMG_08
 
 ## Join a club
 
+- Nittany Amateur Radio Club, <k3rog@arrl.net>, <https://www.nittany-arc.net/>
 - Penn State Amateur Radio Club, <k3cr@psu.edu>
-- Nittany Amateur Radio Club, <k3rog@arrl.net>
+
+## We are...
+
+A Penn State tradition
+
+```{r, out.height="500px"}
+knitr::include_graphics("img/psarc-1912.jpg")
+```
 
 ## Get on the air!
 
