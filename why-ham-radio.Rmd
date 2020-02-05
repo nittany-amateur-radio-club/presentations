@@ -167,11 +167,11 @@ knitr::include_graphics("https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/u
 
 ## Collegiate Amateur Radio Initiative
 
-```{r, out.width="400px"}
-knitr::include_graphics("http://www.arrl.org/img/130x97/exact/News/Orlando%202017%20Collegiate%20Forum-2.JPG")
+```{r, out.height="500px"}
+knitr::include_graphics("https://qrznow.com/wp-content/uploads/2019/01/2016_Funkcamp_YOTA_10.jpg")
 ```
 
-## DX expeditions
+## Go where no one has...
 
 ```{r}
 knitr::include_graphics("https://dxnews.com/upload/images/x3y0-bouvet-23_03.jpg.pagespeed.ic.eAml1_REj6.jpg")
@@ -189,7 +189,7 @@ knitr::include_graphics("https://dx-world.net/wp-content/uploads/2018/07/KH1.-QS
 knitr::include_graphics("https://gdxf.de/megadxpeditions/qsls/3b7a.jpg")
 ```
 
-## Hardware hacking
+## Hack hardware
 
 ```{r}
 knitr::include_graphics("http://www.highonsolder.com/wp-content/uploads/2017/09/IMG_1024.jpg")
@@ -230,6 +230,12 @@ knitr::include_graphics("img/aredn.jpg")
 
 <https://aprs.fi/#!addr=state%20college>
 
+---
+
+```{r, fig.cap="Packets heard by K3ROG-10 in Jan 2020"}
+knitr::include_graphics("img/K3ROG-10-2020-Jan.jpg")
+```
+
 ## Learn new languages
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/43zA_wokXtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -261,6 +267,12 @@ knitr::include_graphics("img/hf-nets.jpg")
 - [Technician](https://hamstudy.org/tech2018)
 - [General](https://hamstudy.org/general2019)
 - [Amateur Extra](https://hamstudy.org/extra2016)
+
+---
+
+```{r, fig.cap="https://hamstudy.org"}
+knitr::include_graphics("img/ham-study-dot-org.jpg")
+```
 
 ## Join a club
 
