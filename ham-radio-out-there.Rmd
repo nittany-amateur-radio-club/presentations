@@ -4,7 +4,11 @@ subtitle: "Remote and portable ops"
 author: "Rick Gilmore K3ROG"
 date: "`r Sys.time()`"
 output: 
-  ioslides_presentation: default
+  ioslides_presentation:
+    css: css/ioslides-wide.css
+    widescreen: true
+    incremental: false
+    transition: default
   html_document:
     widescreen: true
 ---
@@ -16,23 +20,25 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center")
 ```
 
-# Agenda
+## Agenda
 
-## Whys and wherefores
+- Remote ops
+- Portable ops
+
+# Remote ops
+
+## Remote ops: Whys and wherefores
 
 - Fun
 - Technical challenges
 - Promoting the hobby
 - Emergencies?
 
-# Remote ops
-
 ## Background
 
 - Gear here, you there
-
 - Your gear (+ interface device)
-- Someone else's
+- Someone else's gear
 
 ## Technical challenges
 
@@ -40,7 +46,7 @@ knitr::opts_chunk$set(echo = FALSE,
 - Audio in/out
 - Latency
     - TCP/IP designed for "packet-ized" communication
-    
+ 
 ---
 
 ```{r}
@@ -61,37 +67,137 @@ knitr::include_graphics("https://www.icomamerica.com/en/products/amateur/hf/rsba
 - Remote Ham Radio (RHR): <https://www.remotehamradio.com/>
   - \$99/year (or \$20/mo) + airtime (\$/min)
 - Runs in web browser
+- DEMO
   
----
+## 1 hr/wk for better equipped station
   
-```{r}
+
+```{r, echo=TRUE}
 hrs_wk <- 1
 fee_yr <- 99
-dollars_hr <- 0.69*60 
+dollars_hr <- 0.59*60 
 wks_yr <- 52
 (rhr_yr <- fee_yr + wks_yr*hrs_wk*dollars_hr)
 ```
 
+## 3 hrs/wk for lesser equipped station
+
+```{r, echo=TRUE}
+hrs_wk <- 3
+fee_yr <- 99
+dollars_hr <- 0.09*60 
+wks_yr <- 52
+(rhr_yr <- fee_yr + wks_yr*hrs_wk*dollars_hr)
+```
+
+## WebSDR
+
+- WebSDR <http://websdr.org/>
+- Free!
+- DEMO <http://websdr.k3fef.com:8901>
+
 ## Your gear
 
-- WebSDR (receive only): <http://websdr.org/>
-
 - VNC-based
+  - K3ROG-10 APRS iGate
+  - Old Mac Mini running Ubuntu 19, APRSISCE32 under Wine (thanks N3ABF!)
+- DEMO
+  
+## Raspberry Pi-based
 
 - RigPi: <http://rigpi.net/>
-- RemoteTx: <https://remotetx.net>
 - Universal Ham Radio Remote: <https://github.com/F4HTB/Universal_HamRadio_Remote_HTML5>
+- RemoteTx
+
+## RemoteTx <https://remotetx.net>
+
+- Hardware
+    - Raspberry Pi
+    - Elecraft K3, KX2, KX3
+    - Yaesu 991
+    - Icom IC-7100, 7200, 7300
+- Sofware
+    - Custom RPi image
+- Subscription service \$40 (6-mos) or \$70/year
+- DEMO
+
+## Third party software
 
 - ICOM RS-BA1: <https://www.icomamerica.com/en/products/amateur/hf/rsba1/default.aspx>
-- wfview (Icoms only): <https://wfview.org/> 
+- Windows
 
-- Smartlink (for FlexRadio)
+## FlexRadio
 
-## RemoteTx
+- SmartSDR and Smartlink (for FlexRadio)
+- Windows 10, Mac OS, iOS
+- DEMO
 
-## Smartlink
+---
 
-## wfview
+- Full control of radio, waterfall
+- Easy set-up (largely plug-n-play)
+- Can run digital modes (e.g. FT8) within iOS app itself
+- Works over wifi or even cell networks
+- Mac OS and iOS apps pricey
+
+## wfview <https://wfview.org>
+
+- Free, open-source program for "modern ICOM radios"
+- Windows, Mac, Linux
+- View IC-705 waterfall via wifi
+- Other rigs require USB connection
+
+## K3ROG take
+
+- SmartSDR--but you must have a FlexRadio
+- RemoteTx--but only if you have one of the supported radios
+- RigPi--broader range of rigs
+    - Selling my v1
+- Remote Ham Radio--let someone else have the headaches
+- wfview--but only for ICOM rigs
 
 # Portable ops
+
+## Why portable?
+
+- Fun
+- Technical/physical challenges
+- Event support, emergency prep
+- Jump on the NPOTA, SOTA, POTA, WMPLOTA, RaDAR bandwagon
+
+## Considerations
+
+- Mobility
+- Bands, Frequencies, & RF Power
+- Rigs(s)
+- Mode(s)
+- Power
+- Antennas
+- Logging
+
+## Mobility
+
+- Driving to op site or hiking/biking?
+
+## Bands, frequencies, & RF Power
+
+- Time of day
+- CW, SSB, digital
+- RF power 
+    - QRP, <= 5W
+    - QRP+, <= 15-20W
+    - QRO, 100W
+    
+## Rigs
+
+- VHF/UHF
+    - HT or mobile
+- HF
+    - Elecraft KX2 or KX3 (QRP/QRP+)
+    - ICOM IC-705 (includes VHF/UHF; QRP/QRP+)
+    - Yaesu 817/818 (QRP) or 891 (100W)
+    - Xiegu 5105
+    - CW only like QCX+
+    
+
 
