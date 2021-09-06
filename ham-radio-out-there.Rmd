@@ -161,25 +161,27 @@ wks_yr <- 52
 ## Why portable?
 
 - Fun
+- (Sometimes) better operating conditions
 - Technical/physical challenges
 - Event support, emergency prep
-- Jump on the NPOTA, SOTA, POTA, WMPLOTA, RaDAR bandwagon
+- Jump on the [NPOTA](https://npota.arrl.org/), [SOTA](https://www.sota.org.uk/), [POTA](https://parksontheair.com/), [WMPLOTA](https://wmplota.org/), [RaDAR](http://radarops.co.za/) bandwagon
 
 ## Considerations
 
-- Mobility
-- Bands, Frequencies, & RF Power
+- Logistics & weather
+- Bands, Frequencies, modes, & RF Power
 - Rigs(s)
-- Mode(s)
 - Power
 - Antennas
 - Logging
 
-## Mobility
+## Logistics & weather
 
 - Driving to op site or hiking/biking?
+- How long a stay?
+- Shelter or none?
 
-## Bands, frequencies, & RF Power
+## Bands, frequencies, modes, & RF Power
 
 - Time of day
 - CW, SSB, digital
@@ -193,11 +195,97 @@ wks_yr <- 52
 - VHF/UHF
     - HT or mobile
 - HF
-    - Elecraft KX2 or KX3 (QRP/QRP+)
+    - Elecraft KX2 or KX3 (QRP/QRP+), can add VHF to KX3
     - ICOM IC-705 (includes VHF/UHF; QRP/QRP+)
     - Yaesu 817/818 (QRP) or 891 (100W)
-    - Xiegu 5105
-    - CW only like QCX+
+    - Xiegu 5105, G90
+    - Lab599 Discovery TX-500
+    - CW-only like QCX+ 40
     
+## Power
 
+- Rig internal battery
+- External battery
+    - $LiFePO_4$ pricey, but lightweight & small
+- Solar panel + charge controller
+    - Roll/fold-up panels
+- Generator
 
+## Antennas & masts
+
+- Trees or no trees
+- "Stake-able" ground or no (e.g. N3M)
+- Multiband vs. monoband
+- Resonant vs. non-resonant
+
+## Military mast + tripod
+
+- 40m/80m NVIS fan dipole
+- No need to guy if < 20'
+- Speaker tripods if can't stake (e.g., N3M)
+
+## Chameleon MPAS Lite vertical
+
+- Multiband, but need tuner
+
+---
+
+- K3ROG owns & likes Elecraft T1 ATU
+
+```{r, fig.cap="https://elecraft.com/products/t1-miniature-stand-alone-atu-and-accessories"}
+knitr::include_graphics("https://cdn.shopify.com/s/files/1/2029/4979/products/T1_photo_b1_500_896dca1b-dc93-479b-b81c-b491512ac820_530x@2x.jpg?v=1550178407")
+```
+
+## SOTABeams Band Hopper linked dipole
+
+- SOTABeams mast in hitch mount
+- Lightweight antenna, nicely built
+- Resonant, but can't band-hop without adjusting links (alligator clips)
+
+## SOTABeams linked dipole
+
+- Fishing pole mast on ground
+
+## K3ROG quick takes
+
+- Pricey/good value/moderately heavy: Chameleon MPAS Lite
+- Mid-price/heavy/stable: Mil mast + tripod
+- Cheap/lite: Fishing pole mast + dipole/EFHW
+
+## What's your jam?
+
+- It's a hobby, gosh-darnit!
+
+## CW/Digital modes
+
+- QRP rig (IC-705; KX2/3; Xiegu G90) or
+- CW-only rig
+- Laptop (digital only)
+
+## Phone
+
+- QRP rig + amp or
+- QRO rig
+
+## Resources
+
+- [OH8STN](https://oh8stn.org/) blog and YouTube channel
+- [Ham Radio Crash Course](https://www.youtube.com/channel/UChAu6Cof9KlfFxSbL9ytosQ) YouTube Channel
+- [QRPer blog](https://qrper.com/)
+
+## Ideas
+
+- How about a multi-POTA activation marathon?
+    - Bald Eagle SP
+    - Black Mo SP
+    - Rothrock SF
+    - Whipple Dam SP
+    - Greenwood Furnace SP
+    - Poe Valley SP
+    - Poe Paddy SP
+    
+---
+
+- Winter Field Day (Jan 29-30, 2022) at Black Mo SP
+- "Middle of Nowhere" Special Event (PA geographic center: N3S/W3E)
+- Field Day 2022 in the field
