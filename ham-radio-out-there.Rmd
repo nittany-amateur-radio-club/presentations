@@ -71,7 +71,6 @@ knitr::include_graphics("https://www.icomamerica.com/en/products/amateur/hf/rsba
   
 ## 1 hr/wk for better equipped station
   
-
 ```{r, echo=TRUE}
 hrs_wk <- 1
 fee_yr <- 99
@@ -80,7 +79,7 @@ wks_yr <- 52
 (rhr_yr <- fee_yr + wks_yr*hrs_wk*dollars_hr)
 ```
 
-## 3 hrs/wk for lesser equipped station
+## 3 hrs/wk for a lesser-equipped station
 
 ```{r, echo=TRUE}
 hrs_wk <- 3
@@ -107,7 +106,6 @@ wks_yr <- 52
 
 - RigPi: <http://rigpi.net/>
 - Universal Ham Radio Remote: <https://github.com/F4HTB/Universal_HamRadio_Remote_HTML5>
-- RemoteTx
 
 ## RemoteTx <https://remotetx.net>
 
@@ -119,7 +117,7 @@ wks_yr <- 52
 - Sofware
     - Custom RPi image
 - Subscription service \$40 (6-mos) or \$70/year
-- DEMO
+- [DEMO](https://k3rog.remotetx.net)
 
 ## Third party software
 
@@ -149,7 +147,7 @@ wks_yr <- 52
 
 ## K3ROG take
 
-- SmartSDR--but you must have a FlexRadio
+- SmartSDR is aweseom--but you must have a FlexRadio
 - RemoteTx--but only if you have one of the supported radios
 - RigPi--broader range of rigs
     - Selling my v1
@@ -157,6 +155,12 @@ wks_yr <- 52
 - wfview--but only for ICOM rigs
 
 # Portable ops
+
+## With help from
+
+- Eric W3EDP
+- Brett W3SWL
+- Gene AM3AJ
 
 ## Why portable?
 
@@ -197,10 +201,29 @@ wks_yr <- 52
 - HF
     - Elecraft KX2 or KX3 (QRP/QRP+), can add VHF to KX3
     - ICOM IC-705 (includes VHF/UHF; QRP/QRP+)
-    - Yaesu 817/818 (QRP) or 891 (100W)
+    - Yaesu FT-818 (QRP) or FT-891 (100W)
+    
+---
+
+- HF
     - Xiegu 5105, G90
     - Lab599 Discovery TX-500
     - CW-only like QCX+ 40
+    - KM3AJ's IC-7100 setup
+    
+---
+
+| Rig | List Price |
+|-----|------------|
+| [Elecraft KX2](https://elecraft.com/products/kx2-ssb-cw-data-80-10-m-transceiver) | \$899.95 |
+| [Elecraft KX3](https://elecraft.com/products/kx3-all-mode-160-6-m-transceiver) | \$1,249.95 | 
+| [ICOM IC-705](https://www.dxengineering.com/parts/ico-ic-705) | \$1,299.95 |
+| [Yaesu FT-818](https://www.hamradio.com/detail.cfm?pid=H0-016097) | \$649.95 |
+| [Yaesu FT-891](https://www.gigaparts.com/yaesu-ft-891-hf-6m-transceiver.html) | \$639.95 |
+| [Xiegu G90](https://www.hamradio.com/detail.cfm?pid=H0-016772) | \$449.95 |
+| [Xiegu x5150](https://www.radioddity.com/products/xiegu-x5105) | \$599.00 |
+| [Lab599 Discovery TX-500](https://www.hamradio.com/detail.cfm?pid=H0-017255) | $899.95 |
+| [QCX+](https://www.qrp-labs.com/qcxp.html) | \$55.00 |
     
 ## Power
 
@@ -223,10 +246,14 @@ wks_yr <- 52
 - 40m/80m NVIS fan dipole
 - No need to guy if < 20'
 - Speaker tripods if can't stake (e.g., N3M)
+- 6 for $\9.95 from [Coleman's](https://colemans.com/pole-4-fiberglass-used-6-poles)
+- Mast hub for \$63.00 on [Ebay](https://www.ebay.com/itm/360908000786?hash=item5407cb0e12:g:djMAAOxyyghQ7drX)
 
-## Chameleon MPAS Lite vertical
+## Chameleon [MPAS Lite](https://chameleonantenna.com/shop-here/ols/products/mpas-lite)
 
 - Multiband, but need tuner
+- Base-loaded vertical
+- EFHW
 
 ---
 
@@ -248,7 +275,7 @@ knitr::include_graphics("https://cdn.shopify.com/s/files/1/2029/4979/products/T1
 
 ## K3ROG quick takes
 
-- Pricey/good value/moderately heavy: Chameleon MPAS Lite
+- Pricey/good value/heavy-duty/easy to setup/moderately heavy: Chameleon MPAS Lite
 - Mid-price/heavy/stable: Mil mast + tripod
 - Cheap/lite: Fishing pole mast + dipole/EFHW
 
@@ -271,7 +298,9 @@ knitr::include_graphics("https://cdn.shopify.com/s/files/1/2029/4979/products/T1
 
 - [OH8STN](https://oh8stn.org/) blog and YouTube channel
 - [Ham Radio Crash Course](https://www.youtube.com/channel/UChAu6Cof9KlfFxSbL9ytosQ) YouTube Channel
-- [QRPer blog](https://qrper.com/)
+- [QRPer blog](https://qrper.com/) blog
+- [K6ARK Portable Radio](https://www.youtube.com/c/K6ARKPortableRadio) YouTube channel
+- [K8MRD Radio Stuff](https://www.youtube.com/c/K8MRDRADIOSTUFF) YouTube channel
 
 ## Ideas
 
