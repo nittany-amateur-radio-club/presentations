@@ -114,6 +114,9 @@ wks_yr <- 52
     - Elecraft K3, KX2, KX3
     - Yaesu 991
     - Icom IC-7100, 7200, 7300
+    
+## RemoteTx <https://remotetx.net>
+
 - Sofware
     - Custom RPi image
 - Subscription service \$40 (6-mos) or \$70/year
@@ -122,7 +125,7 @@ wks_yr <- 52
 ## Third party software
 
 - ICOM RS-BA1: <https://www.icomamerica.com/en/products/amateur/hf/rsba1/default.aspx>
-- Windows
+  - Windows only
 
 ## FlexRadio
 
@@ -147,10 +150,10 @@ wks_yr <- 52
 
 ## K3ROG take
 
-- SmartSDR is aweseom--but you must have a FlexRadio
+- SmartSDR is <span class="blue">awesome</span>--but you must have a FlexRadio
 - RemoteTx--but only if you have one of the supported radios
-- RigPi--broader range of rigs
-    - Selling my v1
+- RigPi--supports broader range of rigs
+    - Selling my RigPi Station Server (Pi, case, + interface boards)
 - Remote Ham Radio--let someone else have the headaches
 - wfview--but only for ICOM rigs
 
@@ -161,6 +164,7 @@ wks_yr <- 52
 - Eric W3EDP
 - Brett W3SWL
 - Gene AM3AJ
+- Dean K3IWI
 
 ## Why portable?
 
@@ -317,4 +321,5 @@ knitr::include_graphics("https://cdn.shopify.com/s/files/1/2029/4979/products/T1
 
 - Winter Field Day (Jan 29-30, 2022) at Black Mo SP
 - "Middle of Nowhere" Special Event (PA geographic center: N3S/W3E)
+- How about our own RaDAR activity?
 - Field Day 2022 in the field
