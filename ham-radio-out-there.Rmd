@@ -154,7 +154,10 @@ wks_yr <- 52
 - RemoteTx--but only if you have one of the supported radios
 - RigPi--supports broader range of rigs
     - Selling my RigPi Station Server (Pi, case, + interface boards)
-- Remote Ham Radio--let someone else have the headaches
+    
+---
+
+- Remote Ham Radio--let someone else have the headaches--get your feet wet
 - wfview--but only for ICOM rigs
 
 # Portable ops
@@ -244,6 +247,92 @@ wks_yr <- 52
 - "Stake-able" ground or no (e.g. N3M)
 - Multiband vs. monoband
 - Resonant vs. non-resonant
+
+# W3SWL set-up
+
+## Logistics & weather
+
+- "Pickup truck" portable
+
+---
+
+```{r, out.width="700px"}
+knitr::include_graphics("img/W3SWL Honda Ridgeline Hyner View.JPG")
+```
+
+## Bands, frequencies, modes & RF power
+
+- Daytime ops (20m/40m, 80m sometimes)
+- Digital (FT8, JS8Call, PSK31, Winlink)
+- SSB
+- 20-50W sweet spot
+
+## Rigs
+
+- Xiegu G90
+  - Price, waterfall, QRP+ (20W), built-in wide range (>3:1) ATU
+- Icom IC-7300
+
+---
+
+```{r, out.width="700px"}
+knitr::include_graphics("img/Xiegu G90 on home-brew stand Powerwerx volt meter and Bioenno 20Ah battery.JPG")
+```
+
+## Rig power
+
+- 20 Ah $LiFePO_4$
+- Honda Ridgeline has 110v 150-400 watt AC in-bed power outlet as backup
+
+---
+
+```{r, out.width="700px"}
+knitr::include_graphics("img/Bioenno 20Ah LiFePO4 battery.JPG")
+```
+
+---
+
+```{r, out.width="700px"}
+knitr::include_graphics("img/Bioenno and Powerwerx.JPG")
+```
+
+
+## Antennas
+
+- 20m home-brew vertical w/radials
+    - 16' fiberglass fishing pole bungeed to a tie-down in the truck bed
+- Wolf River Coils "Silver Bullet Mini" 40-6m vertical 
+    - radials on a tripod in the truck bed: https://www.wolfrivercoils.com/SBmini.html
+    
+---
+
+```{r, out.width="450px"}
+knitr::include_graphics("img/Wolf River Coil Silver Bullet Mini.JPG")
+```
+
+## Computer for digital modes
+
+- Old: Dell Inspiron
+- New: Apple M1 Macbook Air (18hr battery life)
+    - Runs fldigi, WSJT-X, JS8Call, Winlink via native apps
+
+## Operations
+
+- POTA: Hyner View SP, Bald Eagle SP
+- WFD 2019: Prince Gallitzin SP
+
+# K3ROG set-up
+
+## Rig(s)
+
+- Old: IC-7100 (now KM3AJ's)
+- New: IC-705 + booster
+
+## Bands, frequencies, modes, & power
+
+- 15m/17m/20m/40m/80m
+- SSB, digital
+- 5-10W; 50-100W
 
 ## Military mast + tripod
 
