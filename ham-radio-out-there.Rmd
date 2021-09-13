@@ -37,8 +37,9 @@ knitr::opts_chunk$set(echo = FALSE,
 ## Background
 
 - Gear here, you there
-- Your gear (+ interface device)
-- Someone else's gear
+- Two paths
+    - Your gear (+ interface device)
+    - Someone else's gear
 
 ## Technical challenges
 
@@ -100,7 +101,12 @@ wks_yr <- 52
 - VNC-based
   - K3ROG-10 APRS iGate
   - Old Mac Mini running Ubuntu 19, APRSISCE32 under Wine (thanks N3ABF!)
-- DEMO
+
+---
+
+```{r, out.width="900px"}
+knitr::include_graphics("img/aprsisce-vnc.png")
+```
   
 ## Raspberry Pi-based
 
@@ -339,7 +345,7 @@ knitr::include_graphics("img/Wolf River Coil Silver Bullet Mini.JPG")
 - 40m/80m NVIS fan dipole
 - No need to guy if < 20'
 - Speaker tripods if can't stake (e.g., N3M)
-- 6 for $\9.95 from [Coleman's](https://colemans.com/pole-4-fiberglass-used-6-poles)
+- 6 for \$9.95 from [Coleman's](https://colemans.com/pole-4-fiberglass-used-6-poles)
 - Mast hub for \$63.00 on [Ebay](https://www.ebay.com/itm/360908000786?hash=item5407cb0e12:g:djMAAOxyyghQ7drX)
 
 ## Chameleon [MPAS Lite](https://chameleonantenna.com/shop-here/ols/products/mpas-lite)
@@ -365,6 +371,25 @@ knitr::include_graphics("https://cdn.shopify.com/s/files/1/2029/4979/products/T1
 ## SOTABeams linked dipole
 
 - Fishing pole mast on ground
+- [Ebay Example](https://www.ebay.com/itm/283999933253?_trkparms=ispr%3D1&hash=item421fb71345:g:jbUAAOSwUZdfER5l&amdata=enc%3AAQAGAAACkPYe5NmHp%252B2JMhMi7yxGiTJkPrKr5t53CooMSQt2orsSS2tefNAzyjxA1Q1YVqaAQLNQTsyMO1lUZ1I9M6xM%252Bsd93etFc8LW8x8fh2UcfHtnmE4Dh3c2KWeDhlxtxgZNGp1SreFRAzNX2XwXlImqa9A5no%252FI3V%252FQFXpLMULs0dwteprmhQBzvLHHCuNut1nFSYAcrg19Ab2EpZnjjRiteS9cpiIVAOlKTVg5X3tTB%252BtfK7HSf0VRDbAGhozLVTVb44K4HmsOGU0cFe%252Bje%252BwGC87gVYi%252FSuxdkhYODF8tIdIMLrrejzoGMV%252FWLQIxMwQEroi8r4XdASKu846UaQE%252Fyz9pqI7YzfOuy7%252BqVs0MZiMdm6pJXb%252Bcj0imwMfShimO%252FWtrMo9UjbbIyDsSJF7oNw41I3CxTlNM7%252BTM30fvB0WtggtctxZpB8%252BlVOcjNSuAwaEbu7UdW%252BHGiYJRUSGak4A%252BBDu6jC%252FNXTNEtI%252F7bXFYvLbm7%252FZRjp4oGxOjGSbABznQtDbV33DcoqvtjCaBjh2rvXJejvN2UT5yHbDKyCubsTOAVd58WcIKurvomP4FOvwV8BfxCPtfzKRYgYArwfNEFysDJdW%252Bei3tqYUsp%252BtvGFPgEUNVmpQUhYM6ZehVwZqPZ%252FlQP2hhdcNbswnVo39hv5gnmUGZNPEow4vpRIBESFJvJHofV4tZqb6dUvCUi4QUawO7%252FN3UmkwnKFdjogBhCZgc0vCdqu1i0xIf1nDUrQRbUVE6t92jXZEDryIrcZ7cgfQGhJUugNZGwErbev%252FB3WEPlQoqvdqesyOfV8sikYw%252B7I4ZRuVTBQt5HdIci1ywGdLsn6n5V1atUILoT5c9WDz2owMANx%252B37nMh19ei%7Campid%3APL_CLK%7Cclp%3A2499334&var=585461345225)
+
+---
+
+```{r, out.width="700px"}
+knitr::include_graphics("img/sotabeams-linked-40-20.jpeg")
+```
+
+---
+
+```{r, out.width = "400px"}
+knitr::include_graphics("img/fishing-pole-630mm-mast.jpeg")
+```
+
+---
+
+```{r, out.width="400px"}
+knitr::include_graphics("img/fishing-pole-mast-partially-extended.jpeg")
+```
 
 ## K3ROG quick takes
 
