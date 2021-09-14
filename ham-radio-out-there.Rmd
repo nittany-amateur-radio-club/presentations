@@ -48,7 +48,7 @@ knitr::opts_chunk$set(echo = FALSE,
 - Latency
     - TCP/IP designed for "packet-ized" communication
  
----
+## Connecting to the radio {.smaller}
 
 ```{r}
 knitr::include_graphics("https://www.icomamerica.com/en/products/amateur/hf/rsba1/images/03-1.png")
@@ -68,7 +68,7 @@ knitr::include_graphics("https://www.icomamerica.com/en/products/amateur/hf/rsba
 - Remote Ham Radio (RHR): <https://www.remotehamradio.com/>
   - \$99/year (or \$20/mo) + airtime (\$/min)
 - Runs in web browser
-- DEMO
+- [DEMO](https://www.remotehamradio.com)
   
 ## 1 hr/wk for better equipped station
   
@@ -110,7 +110,7 @@ knitr::include_graphics("img/aprsisce-vnc.png")
   
 ## Raspberry Pi-based
 
-- RigPi: <http://rigpi.net/>
+- RigPi: <http://rigpi.net/> station server
 - Universal Ham Radio Remote: <https://github.com/F4HTB/Universal_HamRadio_Remote_HTML5>
 
 ## RemoteTx <https://remotetx.net>
@@ -143,7 +143,7 @@ knitr::include_graphics("img/aprsisce-vnc.png")
 
 - Full control of radio, waterfall
 - Easy set-up (largely plug-n-play)
-- Can run digital modes (e.g. FT8) within iOS app itself
+- Can run digital modes (e.g. FT8) within app itself
 - Works over wifi or even cell networks
 - Mac OS and iOS apps pricey
 
@@ -302,7 +302,6 @@ knitr::include_graphics("img/Bioenno 20Ah LiFePO4 battery.JPG")
 knitr::include_graphics("img/Bioenno and Powerwerx.JPG")
 ```
 
-
 ## Antennas
 
 - 20m home-brew vertical w/radials
@@ -327,12 +326,75 @@ knitr::include_graphics("img/Wolf River Coil Silver Bullet Mini.JPG")
 - POTA: Hyner View SP, Bald Eagle SP
 - WFD 2019: Prince Gallitzin SP
 
-# K3ROG set-up
+## Hyner View SP October 2020
+
+```{r}
+knitr::include_graphics("img/w3swl-hyner-truck.JPG")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/k3rog-k3iwi-hyner-gear.JPG")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/w3swl-hyner-fog.JPG")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/hyner-view-panorama.JPG")
+```
+
+# K3IWI
+
+## Gear
+
+```{r}
+knitr::include_graphics("img/k3iwi-gear.JPG")
+```
+
+## POTA activations
+
+```{r}
+knitr::include_graphics("img/k3iwi-activation-allegheny-river.JPG")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/k3iwi-activation-allegheny-2.JPG")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/k3iwi-activation-winter.JPG")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/k3iwi-activation-map.png")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/k3iwi-cabin.JPG")
+```
+
+# K3ROG
 
 ## Rig(s)
 
 - Old: IC-7100 (now KM3AJ's)
-- New: IC-705 + booster
+    - Kiddie bench w/ tuner, Raspberry Pi
+- New: IC-705 + "booster bench"
 
 ## Bands, frequencies, modes, & power
 
@@ -347,12 +409,13 @@ knitr::include_graphics("img/Wolf River Coil Silver Bullet Mini.JPG")
 - Speaker tripods if can't stake (e.g., N3M)
 - 6 for \$9.95 from [Coleman's](https://colemans.com/pole-4-fiberglass-used-6-poles)
 - Mast hub for \$63.00 on [Ebay](https://www.ebay.com/itm/360908000786?hash=item5407cb0e12:g:djMAAOxyyghQ7drX)
+- SHOW \& TELL
 
 ## Chameleon [MPAS Lite](https://chameleonantenna.com/shop-here/ols/products/mpas-lite)
 
 - Multiband, but need tuner
-- Base-loaded vertical
-- EFHW
+- Base-loaded vertical or EFHW
+- SHOW \& TELL
 
 ---
 
@@ -367,6 +430,7 @@ knitr::include_graphics("https://cdn.shopify.com/s/files/1/2029/4979/products/T1
 - SOTABeams mast in hitch mount
 - Lightweight antenna, nicely built
 - Resonant, but can't band-hop without adjusting links (alligator clips)
+- SHOW \& TELL
 
 ## SOTABeams linked dipole
 
@@ -422,7 +486,7 @@ knitr::include_graphics("img/fishing-pole-mast-partially-extended.jpeg")
 
 ## Ideas
 
-- How about a multi-POTA activation marathon?
+- How about a club-sponsored multi-POTA activation marathon?
     - Bald Eagle SP
     - Black Mo SP
     - Rothrock SF
@@ -437,3 +501,7 @@ knitr::include_graphics("img/fishing-pole-mast-partially-extended.jpeg")
 - "Middle of Nowhere" Special Event (PA geographic center: N3S/W3E)
 - How about our own RaDAR activity?
 - Field Day 2022 in the field
+
+---
+
+
