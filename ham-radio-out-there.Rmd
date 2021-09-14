@@ -504,4 +504,4 @@ knitr::include_graphics("img/fishing-pole-mast-partially-extended.jpeg")
 
 ---
 
-
+<https://nittany-amateur-radio-club.github.io/presentations/ham-radio-out-there.html>
