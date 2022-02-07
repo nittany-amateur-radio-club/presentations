@@ -94,6 +94,7 @@ wks_yr <- 52
 
 - WebSDR <http://websdr.org/>
 - Free!
+- <span class="red">Receive only</span>
 - DEMO <http://websdr.k3fef.com:8901>
 
 ## Your gear
@@ -110,33 +111,49 @@ knitr::include_graphics("img/aprsisce-vnc.png")
   
 ## Raspberry Pi-based
 
+- RemoteTx <https://remotetx.net>
 - RigPi: <http://rigpi.net/> station server
 - Universal Ham Radio Remote: <https://github.com/F4HTB/Universal_HamRadio_Remote_HTML5>
 
 ## RemoteTx <https://remotetx.net>
 
-- Hardware
-    - Raspberry Pi
-    - Elecraft K3, KX2, KX3
+- Computer
+    - Raspberry Pi (3B+ or 4)
+- Radio
+    - Elecraft K3, KX2, KX3 (HF only)
     - Yaesu 991
-    - Icom IC-7100, 7200, 7300
+    - Icom IC-7100 (w/ VHF and UHF), 7200, 7300, 7610
     
-## RemoteTx <https://remotetx.net>
+## RemoteTx (<https://remotetx.net>)
 
 - Sofware
     - Custom RPi image
 - Subscription service \$40 (6-mos) or \$70/year
 - [DEMO](https://k3rog.remotetx.net)
 
+## RigPi
+
+- Raspberry Pi (3B+ or 4)
+    - You provide or buy [RigPi Station Server (RSS) from MFJ](https://mfjenterprises.com/collections/rigpi/products/mfj-1234c-rigpi-remote-station-server)
+- One-time charge for software ($30), but paid upgrades
+- CAT control via browers; audio via 3rd party app (Mumble)
+- Works with multiple rigs
+- DEMO
+
 ## Third party software
 
-- ICOM RS-BA1: <https://www.icomamerica.com/en/products/amateur/hf/rsba1/default.aspx>
+- ICOM RS-BA1-V2: <https://www.icomamerica.com/en/products/amateur/hf/rsba1/default.aspx>
   - Windows only
+  - \$159.99 from [DX Engineering](https://www.dxengineering.com/parts/ico-rs-ba1-v2)
+- wfview (<https://wfview.org>)
+  - ICOM IC-705, 7300, 7610, R8600, 7850, 9700 (+ some older rigs) 
+  - Free & open source
+  - Windows, Mac, Linux
 
 ## FlexRadio
 
 - SmartSDR and Smartlink (for FlexRadio)
-- Windows 10, Mac OS, iOS
+- Windows 10/11, Mac OS, iOS
 - DEMO
 
 ---
@@ -147,24 +164,20 @@ knitr::include_graphics("img/aprsisce-vnc.png")
 - Works over wifi or even cell networks
 - Mac OS and iOS apps pricey
 
-## wfview <https://wfview.org>
-
-- Free, open-source program for "modern ICOM radios"
-- Windows, Mac, Linux
-- View IC-705 waterfall via wifi
-- Other rigs require USB connection
-
 ## K3ROG take
 
 - SmartSDR is <span class="blue">awesome</span>--but you must have a FlexRadio
-- RemoteTx--but only if you have one of the supported radios
-- RigPi--supports broader range of rigs
-    - Selling my RigPi Station Server (Pi, case, + interface boards)
+- RemoteTx is easy & fun--but only if you have one of the supported radios and don't mind the subscription model
+- RigPi--supports broadest range of rigs
+    - A little harder to configure, but one-time cost
+    - Selling my RigPi Station Server v1 (Pi, case, + interface boards)
     
 ---
 
-- Remote Ham Radio--let someone else have the headaches--get your feet wet
+- Remote Ham Radio--let someone else have the headaches--get your feet wet or good for HOAs
 - wfview--but only for ICOM rigs
+
+## Questions??
 
 # Portable ops
 
