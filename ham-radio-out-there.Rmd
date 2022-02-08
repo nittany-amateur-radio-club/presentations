@@ -115,7 +115,7 @@ knitr::include_graphics("img/aprsisce-vnc.png")
 - RigPi: <http://rigpi.net/> station server
 - Universal Ham Radio Remote: <https://github.com/F4HTB/Universal_HamRadio_Remote_HTML5>
 
-## RemoteTx <https://remotetx.net>
+## RemoteTx (<https://remotetx.net>)
 
 - Computer
     - Raspberry Pi (3B+ or 4)
