@@ -1,0 +1,197 @@
+---
+title: "For the love of coax"
+subtitle: "How to choose, how to make"
+author: "Rick Gilmore W3TM"
+date: "`r Sys.time()`"
+output: 
+  ioslides_presentation:
+    css: css/ioslides-wide.css
+    widescreen: true
+    incremental: false
+    transition: default
+  html_document:
+    widescreen: true
+params:
+  update_google_sheet: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE, 
+                      message = FALSE,
+                      fig.align = "center",
+                      out.width = "90%")
+```
+
+## Agenda
+
+- Choosing coax types
+- Making coax patch cables
+
+# Choosing coax
+
+## Considerations
+
+- Power
+- Frequency
+- Length, location, & use
+- Connectors (ignoring here)
+
+## Power
+
+- High power vs. low
+- QRP
+
+## Frequency
+
+- HF
+- VHF
+- UHF or higher
+
+## Length, location & use
+
+- Long (e.g., feedline) vs. short (patch)
+- Indoors
+    - Short radius turns?
+- Outdoors
+    - Water resistance
+    - UV resistance
+    - Weight (EFHW vs. dipole)
+    
+## Basic principles
+
+- Don't exceed power handling capacity
+- Minimize signal loss (attenuation)
+- Minimize cost
+- "As short as possible"
+
+## Some data
+
+```{r echo=FALSE}
+library(tidyverse)
+
+if (params$update_google_sheet) {
+  googledrive::drive_auth(email = "rick.o.gilmore@gmail.com")
+  googledrive::drive_download(file = "coax-properties",
+                              "csv/coax_properties.csv",
+                              overwrite = TRUE)
+}
+
+coax <-
+  readr::read_csv("csv/coax_properties.csv", show_col_types = FALSE)
+```
+
+<https://docs.google.com/spreadsheets/d/14FFnRm2fk9u0FUJHsBTqYPRzI6EGs8cr6EH4aVEpFCo/edit?usp=sharing>
+
+---
+
+```{r fig-loss-freq-hf-uhf, fig.cap="Attenuation (dB/100') by frequency (HF - UHF)", echo=FALSE}
+coax %>%
+  ggplot() +
+  aes(x = freq_mhz, y = db_loss_100ft, shape=comparison, color=type) +
+  geom_point() +
+  geom_line() +
+  theme(legend.position = "none")
+```
+
+---
+
+```{r fig-loss-freq-hf, fig.cap="Attenuation (dB/100') by frequency: HF + 50 MHz", echo=FALSE}
+coax %>%
+  dplyr::filter(., freq_mhz < 100) %>%
+  ggplot() +
+  aes(x = freq_mhz, y = db_loss_100ft, shape=comparison, color=type) +
+  geom_point() +
+  geom_line() +
+  theme(legend.position = "none")
+```
+
+---
+
+```{r fig-loss-freq-hf-legend, out.height = "75%", fig.cap="Attenuation (dB/100') by frequency: HF + 50 MHz", echo=FALSE}
+coax %>%
+  dplyr::filter(., freq_mhz < 100) %>%
+  ggplot() +
+  aes(x = freq_mhz, y = db_loss_100ft, shape=comparison, color=type) +
+  geom_point() +
+  geom_line() +
+  theme(legend.position = "bottom", legend.title = element_blank())
+```
+
+---
+
+```{r fig-power-capacity-hf, fig.cap="Power capacity by frequency: HF + 50 MHz", echo=FALSE}
+coax %>%
+  dplyr::filter(., freq_mhz < 100) %>%
+  dplyr::filter(., !is.na(power_capacity_watts)) %>%
+  ggplot() +
+  aes(x = freq_mhz, y = power_capacity_watts, shape=comparison, color=type) +
+  geom_point(position = position_jitter(width = .7)) +
+  geom_line() +
+  theme(legend.position = "none")
+```
+
+---
+
+```{r fig-power-capacity-hf-legend, out.height = "75%", fig.cap="Power capacity by frequency: HF + 50 MHz", echo=FALSE}
+coax %>%
+  dplyr::filter(., freq_mhz < 100) %>%
+  dplyr::filter(., !is.na(power_capacity_watts)) %>%
+  ggplot() +
+  aes(x = freq_mhz, y = power_capacity_watts, shape=comparison, color=type) +
+  geom_point(position = position_jitter(width = .7)) +
+  geom_line() +
+  theme(legend.position = "bottom", legend.title = element_blank())
+```
+
+---
+
+```{r fig-coax-dollars-per-foot, fig.cap="Cost (US$/ft) vs. Attenuation", out.height="75%"}
+coax %>%
+  dplyr::filter(., freq_mhz < 100) %>%
+  dplyr::filter(., !is.na(dollars_per_ft)) %>%
+  ggplot() +
+  aes(x=dollars_per_ft, y = db_loss_100ft, shape=comparison, color=type) +
+  geom_point() +
+  theme(legend.position = "bottom", legend.title = element_blank())
+```
+
+## Conclusions
+
+- HF + 50 MHz
+    - Low power
+        - In shack: RG-58 or RG-8X
+        - Outside/feedline: RG-58 (shorter runs) or RG-8X or RG-8U/RG-213
+    - Higher power
+        - In shack: RG-8U/RG-213
+        - Outside/feedline: RG-8U/RG-213 or LMR-400
+        
+---
+
+- VHF/UHF
+    - 
+
+## Resources
+
+- <https://www.onallbands.com/coaxial-cable-guide-understanding-the-differences-among-types-of-coaxial-cable%EF%BB%BF/>
+- <https://www.qsradio.com/coax-and-connector-info.html>
+- <https://www.universal-radio.com/catalog/cable/coaxperf.html>
+- <https://messi.it/en/comparison-chart-50-ohm-cables.htm>
+
+---
+
+- <https://static.dxengineering.com/global/images/chartsguides/d/dxe-400max_ks.pdf>
+- <https://www.hamradioschool.com/post/coaxial-loss-t9b05>
+
+# Making patch cables
+
+## What
+
+- Coax
+- Connectors (usually 2x male, but...)
+    - **Specific to coax type**
+- Crimp tool, solder
+- Cutting/prep tool
+- Heat shrink + heat gun
+
+## Why?
