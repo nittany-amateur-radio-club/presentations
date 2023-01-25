@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE,
 - Power
 - Frequency
 - Length, location, & use
-- Connectors (ignoring here)
+- Connectors
 
 ## Power
 
@@ -165,11 +165,6 @@ coax %>%
     - Higher power
         - In shack: RG-8U/RG-213
         - Outside/feedline: RG-8U/RG-213 or LMR-400
-        
----
-
-- VHF/UHF
-    - 
 
 ## Resources
 
@@ -188,10 +183,56 @@ coax %>%
 ## What
 
 - Coax
-- Connectors (usually 2x male, but...)
-    - **Specific to coax type**
-- Crimp tool, solder
-- Cutting/prep tool
-- Heat shrink + heat gun
+- Connectors (usually 2x male, but YMMV)
+    - Specific to **coax type**
+    - Specific to **attachment type**: solder vs. crimp/solder
+- Crimp tool (if crimping), solder + soldering iron (for both)
+- Cutting/prep tool (optional, but handy)
+
+---
+
+- Side cutters (for trimming braid)
+- Heat shrink + heat gun or tape (optional but advised)
 
 ## Why?
+
+- Fun
+- Learn new skill
+- Save $
+    - Pre-made: [$28.99 (3')](https://www.dxengineering.com/parts/dxe-8xdx003) - [$30.49 (6')](https://www.dxengineering.com/parts/dxe-8xdx006)
+    - Pay for tool cost in about 3 cables
+
+## How
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IbKMiteF0_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QNmyGA9LHes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nSANFhlIhMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N8uygjMlZ1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Shopping list
+
+- Coax
+    - RG-8X <https://www.dxengineering.com/parts/dxe-8x>
+
+----
+
+- Connectors (PL-259/UHF Male)
+    - Crimp/solder type <https://www.dxengineering.com/parts/dxe-pl259cs8x-6>
+    - Solder type
+        - Connector <https://www.dxengineering.com/parts/dxe-pl259-6>
+        - RG-8X reducer <https://www.dxengineering.com/parts/dxe-ug176s-6/part-type/coaxial-connectors>
+
+---
+
+- Cutting/prep tool
+    - Crimp/solder connector type <https://www.dxengineering.com/parts/dxe-ut-240c-p1>
+    - Solder connector type <https://www.dxengineering.com/parts/dxe-ut-808x>
