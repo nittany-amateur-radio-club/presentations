@@ -156,15 +156,19 @@ coax %>%
   theme(legend.position = "bottom", legend.title = element_blank())
 ```
 
-## Conclusions
+## Conclusions (HF+ 50 MHz)
 
-- HF + 50 MHz
-    - Low power
-        - In shack: RG-58 or RG-8X
-        - Outside/feedline: RG-58 (shorter runs) or RG-8X or RG-8U/RG-213
-    - Higher power
-        - In shack: RG-8U/RG-213
-        - Outside/feedline: RG-8U/RG-213 or LMR-400
+- Low power
+    - In shack: RG-58 or RG-8X
+    - Outside/feedline:
+        - Short-runs or dipole centers RG-58 or RG-8X
+        - RG-8U/RG-213 with a solid support
+            
+---
+
+- Higher power
+    - In shack: RG-8U/RG-213
+    - Outside/feedline: RG-8U/RG-213 or LMR-400
 
 ## Resources
 
@@ -236,3 +240,14 @@ coax %>%
 - Cutting/prep tool
     - Crimp/solder connector type <https://www.dxengineering.com/parts/dxe-ut-240c-p1>
     - Solder connector type <https://www.dxengineering.com/parts/dxe-ut-808x>
+
+---
+
+- Or combo cutting/crimp toolset
+    - Deluxe Coax Crimp Kit <https://www.qsradio.com/shop-now.html#!/Deluxe-Coax-Crimp-Kit/p/50841245/category=8446815>
+    
+## Final words
+
+- There's only one "law" psychologists have proven
+    - Fitt's Law: speed vs. accuracy
+- Pay now or pay later
