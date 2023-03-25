@@ -5,4 +5,4 @@
 - [Presentation](https://nittany-amateur-radio-club.github.io/presentations/ham-radio-out-there.html) on portable ops K3ROG, K3IWI, W3SWL, W3EDP, and KM3AJ gave on 2021-09-14. [PDF](https://nittany-amateur-radio-club.github.io/presentations/ham-radio-out-there.pdf)
 - [Presentation](https://nittany-amateur-radio-club.github.io/presentations/ham-radio-out-there.html) on remote operations by K3ROG on 2022-02-08.
 - [Presentation](https://nittany-amateur-radio-club.github.io/presentations/for-the-love-of-coax.html) on coax by W3TM (formerly K3ROG) on 2023-02-14.
-
+- [Presentation](https://nittany-amateur-radio-club.github.io/presentations/mountaintop-update-2023-03-28.html) on antenna upgrades/experiments.
