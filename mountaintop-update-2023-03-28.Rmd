@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 - Assemble Yagis for Centre Comm
 - Replace 160m dipole
-- Replace 80 or 40 m monoband dipoles with 80/40 fan dipoles.
+- Replace 80m or 40 m monoband dipoles with 80/40 fan dipoles
 
 ## Experiments in remote ops
 
@@ -54,7 +54,7 @@ knitr::opts_chunk$set(echo = FALSE,
 ## Goals/rationale/team
 
 - Explore feasibility, technical issues
-- Low-likelihood of lightning events in March
+- Low-likelihood of lightning events in March (!)
 - W3TM, W3EDP, N3LI, and K0LO
 - Can we do it -> should we do it
 
@@ -81,9 +81,9 @@ knitr::include_graphics("img/k0l0-ft4-ft8-2023-03.png")
 
 - Users share the same credentials
 - Users must have PC (free), Mac (\$), or iOS (\$; iPhone or iPad) app
-- Lighting occurs in March!
+- Lightning occurs in March!
 
-## In progress
+## In progress/under exploration
 
 - NodeRed dashboard (K0LO & W3TM)
 
@@ -110,7 +110,10 @@ knitr::include_graphics("img/narc-kpa-1500-nodered.png")
 
 ---
 
-- IC-7610 via [RemoteTx](https://remotetx.net), W3TM & K3YV use.
+- IC-7610 control
+- Options
+    - [RemoteTx](https://remotetx.net) (W3TM & K3YV use).
+    - Win4Icom, WFView, or other client program.
 
 ## Should we do it?
 
