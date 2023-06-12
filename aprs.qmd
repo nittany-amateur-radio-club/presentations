@@ -1,0 +1,205 @@
+---
+title: "APRS"
+author: "Rick Gilmore W3TM"
+format: revealjs
+editor: visual
+---
+
+## Agenda
+
+-   What is APRS?
+-   How does it work?
+-   Gear and software
+
+# What is APRS?
+
+## Automatic Packet Reporting System
+
+-   Not the Automatic *Position* Reporting System
+-   [APRS.org](http://www.aprs.org)
+
+## Bob Bruniga WB4APR SK
+
+::: columns
+::: {.column width="40%"}
+```{r, echo=FALSE, fig.cap="Bob Bruniga WB4APR SK"}
+knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/images/image_1_preview.jpg")
+```
+:::
+
+::: {.column width="60%"}
+*While best known for APRS, Bruninga was also a retired US Naval Academy (USNA) senior research engineer who had an abiding interest in alternative power sources, such as solar power. In 2018, he authored Energy Choices for the Radio Amateur, published by ARRL.*
+
+[ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="40%"}
+```{r, echo=FALSE, fig.cap="Bob Bruniga WB4APR SK"}
+knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/images/image_1_preview.jpg")
+```
+:::
+
+::: {.column width="60%"}
+*APRS originated in 1982, when Bruninga wrote his first data map program that plotted the positions of US Navy ships for the Apple II platform. A couple of years later, he developed what he called the Connectionless Emergency Traffic System (CETS) on the VIC-20 and C64 platforms for digital packet communications to support an endurance race. *
+
+[ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="40%"}
+```{r, echo=FALSE, fig.cap="Bob Bruniga WB4APR SK"}
+knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/images/image_1_preview.jpg")
+```
+:::
+
+::: {.column width="60%"}
+
+*The program was ported to the IBM PC platform in 1988, and was renamed APRS in 1992. The recognized North American APRS frequency is 144.39 MHz, and APRS is globally linked via the internet.*
+Bruninga founded the [Appalachian Trail Golden Packet (ATPG) event](https://atgoldenpacket.net), which fields APRS nodes from Stone Mountain in Georgia to Mount Katahdin in Maine each July.*
+
+[ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="40%"}
+```{r, echo=FALSE, fig.cap="Bob Bruniga WB4APR SK"}
+knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/images/image_1_preview.jpg")
+```
+:::
+
+::: {.column width="60%"}
+
+*Bruninga founded the [Appalachian Trail Golden Packet (ATPG) event](https://atgoldenpacket.net), which fields APRS nodes from Stone Mountain in Georgia to Mount Katahdin in Maine each July.*
+
+[ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
+:::
+
+:::
+
+
+## Packet radio
+
+-   Data mode
+-   Text packets (not images)
+-   Weather station telemetry, text messages, announcements, queries
+-   **AND** GPS coordinates
+
+# How does APRS work?
+
+## Packets
+
+- Shared frequency (U.S. 144.39 MHz)
+- Packets sent asychronously
+- No collision detection, but...
+    - Receivers at varying distances from the source.
+    - Packets are either detected or lost.
+- Most packets are picked up by some station
+- Overall packet loss is low.
+
+<https://web.stanford.edu/class/ee179/labs/Lab8.html>
+
+## Packet structure
+
+<http://www.aprs.net/vm/DOS/PROTOCOL.HTM>
+
+APRS Protocol Reference: <http://www.aprs.org/doc/APRS101.PDF>
+
+--- 
+
+## Radio-side
+
+-   Radio (usually VHF FM)
+-   Packet Terminal Node Controller (TNC) or modem
+    -   Hardware or software
+    -   Inside radio or separate
+
+## Sound $\rightarrow$ data
+
+-   [Bell 202 standard](https://en.wikipedia.org/wiki/Bell_202_modem) for sending bits over a bandwidth limited line.
+-   '1' : 1200 Hz; '0' : 2200 Hz.
+-   1200 bits/second $\rightarrow$ 0.83 ms/bit
+-   '1' : 1 cycle (\\\@1200 Hz); '0' : 1.8 cycles (\\\@ 2200 Hz)
+-   Some magic packet decoding stuff $\rightarrow$
+-   ASCII characters
+
+<https://web.stanford.edu/class/ee179/labs/Lab8.html>
+
+## Internet
+
+-   Automatic Packet Reporting System-Internet Service (APRS-IS)
+-   <https://www.aprs-is.net>
+
+# What is it for?
+
+## {background-iframe="https://aprs.fi/?call=W3TM-2&others=1"}
+
+<https://aprs.fi/?call=W3TM-2&others=1>
+
+## {background-iframe="https://amateur.sondehub.org/#!mt=Mapnik&mz=5&qm=12h&mc=53.47497,-2.21924"}
+
+<https://amateur.sondehub.org/#!mt=Mapnik&mz=5&qm=12h&mc=53.47497,-2.21924>
+
+## Other uses
+
+- Weather
+- SOTA/POTA
+- Links to SMS via <https://smsgte.org
+- APRS-TT for hams without an APRS-enabled rig
+- Tracking the [International Space Station (ISS)](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FISS&timerange=3600&tail=3600)
+
+## Voice Alert
+
+-   KR3ORY and W3TM run
+-   100 Hz CTCSS tone squelch on 144.390
+-   APRS never breaks squelch unless other station within simplex distance
+
+# Gear
+
+## Radios w/ GPS & TNC
+
+-   HTs
+    -   Yaesu FT5DR
+    -   Anytone D878UVII
+    -   *Kenwood HT-D74, D72*
+-   Mobile rigs
+    -   Yaesu FTM-200DR, 300, *400*
+    -   *Kenwood TM-D710G, TM-D71*
+
+## Mobilinkd TNC
+
+<http://www.mobilinkd.com>
+
+## All-in-ones
+
+<https://microsat.com.pl/index.php?language=en&ceid=56cd23bea8f26a564f19844dbc28ce1f>
+
+## Direwolf
+
+<https://github.com/wb2osz/direwolf>
+
+## Trackers
+
+<https://www.byonics.com/aprs> <http://shop.qrp-labs.com/lightaprs>
+
+# Lingo
+
+## Digipeater
+
+Repeats RF packets
+
+## iGate
+
+Sends packets to APRS-IS.
+
+May or may not digipeat.
