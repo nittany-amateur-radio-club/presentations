@@ -1,0 +1,111 @@
+---
+title: "2019-11-12 Clubhouse Report"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    logo: img/NARC-logo.png
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<!-- ## Stations -->
+
+<!-- - **NARC-1** -->
+<!--     - Icom IC-7610 (HF + 6m) -->
+<!--       - Astron power supply -->
+<!--     - Elecraft KPA1500 -->
+<!--       - Elecraft power supply -->
+<!--     - Windows 10 PC, dual monitor set-up -->
+<!--         - WSTJ-X, JS8Call, fldigi, N1MM, N3FJP -->
+
+<!-- --- -->
+
+<!-- - **NARC-2** -->
+<!--     - Elecraft K3S (HF + 6m) -->
+<!--       - Astron power supply -->
+<!--     - Elecraft KPA1500 -->
+<!--     - Elecraft P3 Panadapter -->
+<!--     - Windows 10 PC, single monitor set-up, dual monitor capable -->
+<!--       - WSTJ-X, JS8Call, ~~fldigi~~, N1MM, N3FJP -->
+
+<!-- --- -->
+
+<!-- - **NARC-3** -->
+<!--     - Icom 746 Pro (HF/VHF/UHF) -->
+<!--       - Icom power supply -->
+<!--     - No amplifier -->
+<!--     - Windows 10 PC, single monitor set-up, dual monitor capable -->
+
+<!-- --- -->
+
+<!-- - **NARC-4** -->
+<!--     - Kenwood TS-450D -->
+<!--     - No amplifier -->
+<!--     - No PC -->
+
+## Antennas
+
+- Tribander @ 60'
+  - Rotator checked 2019-09-08, works but not calibrated
+- 80m/75m dipoles
+  - CW cut
+  - Phone cut
+- 40m dipole @ 80'
+- VHF yagi @ 80'
+  - Rotator checked 2019-09-08, but not calibrated
+
+## Antennas off-line
+
+- ~~Tribander @ 80'~~
+  - Rotator checked 2019-09-09, but not calibrated
+- ~~40m dipole @ 60'~~
+- ~~160m dipole~~
+
+<!-- ## Antenna testing -->
+
+<!-- - Rod Kreuter WA3ENK and Mike Coslo N3LI tested antennas using separate PC-based VNAs -->
+<!-- - <https://nittany-amateur-radio-club.github.io/antennas/antenna-report-2019-08-27.html> -->
+
+## Last month's activities
+
+- Simulated Emergency Test (SET), 2019-10-05
+- Antenna rotor cables fed from attic into shack; rotors tested
+- Cabinets arrived; installation in progress
+- CQ WW DX SSB (K3ROG & NK8Q operated from clubhouse)
+- KB1BH, AD3K, and K3ROG reviewed/updated clubhouse quick-start guides
+
+## Quick-start guides
+
+- [Clubhouse guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html)
+- [IC-7610](https://nittany-amateur-radio-club.github.io/clubhouse/IC-7610.html)
+- [Elecraft K3S](https://nittany-amateur-radio-club.github.io/clubhouse/elecraft-k3s.html)
+- [Elecraft KPA1500 amplifier](https://nittany-amateur-radio-club.github.io/clubhouse/KPA1500.html)
+
+## Upcoming events
+
+- ARRL Sweepstakes (this weekend)
+- Packet meeting, Sat 11/23 11a, K3ROG, KB1BH +
+- Put 40m and 160m antennas back up (unscheduled, possibly 11/17 or 11/24?)
+
+## Club activities
+  
+  <iframe src="https://calendar.google.com/calendar/embed?src=nittany.amateur.radio.club%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Nets
+
+<iframe src="https://calendar.google.com/calendar/embed?src=n0491u4fblo9ii3r7jd229do00%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Events
+  
+<iframe src="https://calendar.google.com/calendar/embed?src=guioc379gct3ivmjt7ilejrp90%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Questions?

@@ -1,0 +1,103 @@
+---
+title: "NARC Clubhouse Report"
+subtitle: "April 2021 Membership Meeting"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    logo: img/NARC-logo.png
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "700px",
+                      fig.align = 'center')
+```
+
+## Recent activities
+
+- Purchased new computers, monitors, keyboards, & mice (4x)
+- Work day (K3ROG, N3LI, KB1BH)
+  - Tweak packet station (KB1BH)
+  - List required parts for Mosley Classic CL-33-WARC
+  - Install new computer & monitor at NARC-1.
+- ARRL Simulated Emergency Test (SET)
+  - W3SWL, N3LI, KM4AJ operated 75m/40m digital and 60m phone
+
+---
+
+```{r, fig.cap="N3LI installing fldigi."}
+knitr::include_graphics("img/narc-1-new-computer.jpeg")
+```
+
+## Next steps in computer upgrade
+
+- Additional monitor arms on order
+- Install software & test
+    - N1MM+, N3FJP, etc.
+    - fldigi suite, WSJT-X, JS8Call, SSTV, etc.
+    - Wifi networking
+    - Consider Win4Icom or Icom's equivalent (IC-7610)
+- Consider single machine "image"
+- Remote management with help from K0LO
+
+## Move web-based manual to groups.io wiki
+
+- Old site(s):
+    - <https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html>
+    - <https://nittany-amateur-radio-club.github.io/clubhouse/antennas.html>
+- New pages(s):
+    - [Wiki home](https://groups.io/g/Nittany-ARC/wiki)
+    - [Station guide](https://groups.io/g/Nittany-ARC/wiki/25936)
+    - [Antennas guide](https://groups.io/g/Nittany-ARC/wiki/25937)
+
+## Deferred tower repairs
+
+- Reinstall Mosley Classic CL-33-WARC on 80' north tower
+- Tower & rotator maintenance
+  - 60' west tower
+  - 80' middle/south tower
+    - Consider replacing 2m Yagi & rotator
+  - 80' north tower
+- Centre Comm will do site visit and report
+  
+## Spring/Fall 2021 work-day projects
+
+- Full [equipment inventory](https://docs.google.com/spreadsheets/d/1J_zTmty3JlsgPIf_KGFJ72rzpGeRJSGKMHn6ZnMDEuE/edit?usp=sharing) (shack, attic, shed)
+    - Discard/sell unused items
+    - **BEFORE Field Day 2021**
+- Wall of Fame for plaques
+- Install large-scale monitor (w/ Hamclock, PSKreporter, etc. windows on Raspberry Pi)
+    - NK8Q donation of TV.
+    
+---
+    
+- Dipole maintenance
+    - Retune 40m dipole for CW/digital portion
+    - Reposition 40m dipoles for better geographic coverage
+- Repainting exterior?
+- Better ventilation in shed
+
+## Under consideration
+
+- Replace/upgrade packet station
+    - Replacing PC
+    - Consider new TNC- or computer-based option (direwolf)
+- Satellite antenna assembly/installation
+
+---
+
+- Research rotators & controller replacements
+    - Goal: Computer-controlled rotation of antennas
+- Replace keyed lock with keyless
+- Run 2nd coax lines to NARC-1 and NARC-2 to take advantage of dual receivers in both rigs
+    - Receive-only antenna?
+    - Antenna switching?
+
+## Questions?

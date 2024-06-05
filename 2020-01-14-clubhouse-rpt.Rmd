@@ -1,0 +1,68 @@
+---
+title: "2020-01-14 Clubhouse Report"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    logo: img/NARC-logo.png
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Recent activities
+
+- NK8Q operated ARRL 160m CW contest
+- K3CWP operated Skywarn Recognition Day
+- K3ROG, N3LI, W3EDP, & NK8K repaired 160m dipole
+- K3ROG updated quick-start guides ([tower photos](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html#antennas_by_band))
+- N3EB worked on fiber optic internet connection
+- N3LI & KB1BH worked on packet station
+
+## Quick-start guides
+
+- [Clubhouse guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html)
+- [IC-7610](https://nittany-amateur-radio-club.github.io/clubhouse/IC-7610.html)
+- [Elecraft K3S](https://nittany-amateur-radio-club.github.io/clubhouse/elecraft-k3s.html)
+- [Elecraft KPA1500 amplifier](https://nittany-amateur-radio-club.github.io/clubhouse/KPA1500.html)
+
+## Future work
+
+- Repair 40m dipole (West 60' Tower)
+- Finish cabinet installation
+
+## Under consideration
+
+- Replace keyed lock with keyless
+- Run 2nd coax lines to NARC-1 and NARC-2 to take advantage of dual receivers
+- Digital-only station
+- Research rotators & controller replacements
+- Replace PCs and monitors
+
+## Club activities
+  
+<iframe src="https://calendar.google.com/calendar/embed?src=nittany.amateur.radio.club%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Nets
+
+<iframe src="https://calendar.google.com/calendar/embed?src=n0491u4fblo9ii3r7jd229do00%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## Events
+  
+<iframe src="https://calendar.google.com/calendar/embed?src=guioc379gct3ivmjt7ilejrp90%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+## [Winter Field Day](https://www.winterfieldday.com/)
+
+- Saturday, 2020-01-25 (1900 UTC) - Sunday, 2020-01-26 (1900 UTC)
+- N3LI, W3SWL, and K3ROG operating from Cabin 5 in Prince Gallitzin State Park
+- SSB, JS8Call, PSK31, CW
+- Visiting/guest operators welcome
+
+## Questions?

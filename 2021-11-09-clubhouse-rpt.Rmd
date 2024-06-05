@@ -1,0 +1,44 @@
+---
+title: "NARC Clubhouse Report"
+subtitle: "November 2021 Membership Meeting"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    logo: img/NARC-logo.png
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "700px",
+                      fig.align = 'center')
+```
+
+## Antennas
+
+- $10K allocated to antenna upgrades as part of clubhouse renovation project
+- New antennas
+  - Ordered & received replacement Mosley Classic Yagi for 80' (north) tower (\$1,182.95 + \$181.35 shipping)
+  - Ordered & received Mosley Scotch Master 4 el 6m Yagi for 100' (south) tower (\$289.95 shipped)
+- Centre Comm confirms that we need to replace rotors on 60' and 80' towers
+  
+## Antennas
+
+- Ordered new rotors and controllers
+  - 2x Yaesu G-2800 + Green Heron RT-21 controllers (\$2,758 shipped)
+- To-order
+  - Spare Yaesu G-2800 (~$777.40)
+  - Controller cable (~$200)
+- Schedule antenna assembly (we do) and installation (Centre Comm does) in spring
+
+## Antenna upgrade bottom line
+
+- Spent \$`r (2634.25 + 2758)` of \$10K allocated
+
+- [Cost details](https://docs.google.com/spreadsheets/d/1IJw0d1DJVHaF-TV7Gua7RRdg8272v8kVRV87aQGJ7iw/edit#gid=0)

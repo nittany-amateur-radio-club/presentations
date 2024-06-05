@@ -1,0 +1,124 @@
+---
+title: "NARC Clubhouse Report"
+subtitle: "December 2020 Membership Meeting"
+author: "Rick Gilmore K3ROG"
+date: "`r Sys.time()`"
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    logo: img/NARC-logo.png
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "700px",
+                      fig.align = 'center')
+```
+
+## Recent activities
+
+- Work day (K3ROG, W3EDP, W0LO)
+  - Wifi work
+  - Additional shelving
+- Work day (K3ROG, N3LI, NK8Q, KM3AJ, KR3ORY) 
+  - Reinstallation of 40m dipole on 60' west tower
+  - Repair of 160m dipole on 80' north tower
+  - Store 2m & 70cm Yagis from satellite station
+  
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0181.jpeg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0182.jpeg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0183.jpeg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0184.jpeg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0185.jpeg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0186.jpeg")
+```
+
+## Web-based manual edits
+
+- [Clubhouse guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html)
+- [Antenna guide](https://nittany-amateur-radio-club.github.io/clubhouse/antennas.html)
+
+## Deferred repairs
+
+- Order replacement parts for downed Yagi
+  - Reinstall on 80' north tower
+- Tower & rotator maintenance
+  - 60' west tower
+  - 80' middle/south tower
+    - Consider replacing 2m Yagi
+  - 80' north tower
+
+## Under consideration
+
+- Research rotators & controller replacements
+    - Goal: Computer-controlled rotation of antennas
+- Replace keyed lock with keyless
+- Run 2nd coax lines to NARC-1 and NARC-2 to take advantage of dual receivers in both rigs
+- Reposition 40m dipoles to enlarge angle between them
+- Retune 40m dipole for CW/digital portion
+
+# NARC network
+
+## We are live!
+
+- Wifi is **active**
+- Many kudos to Mark K0LO & Eric N3EB
+- Ask N3LI, W3EDP, or K3ROG for password
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0187.jpeg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("img/IMG_0188.jpeg")
+```
+
+# Computer upgrade proposal
+
+## Proposal
+
+- Final stage of 5-year workstation upgrade/replacement plan
+- Replace four computers + monitors + accessories
+- NARC1 (IC-7610), NARC2 (Elecraft K3S), NARC3 (IC-9100), + packet station
+- Used at shack + Field Day
+- Request spending authority for a maximum of $4,000
+  - Requires membership approval
+  
+## Questions?

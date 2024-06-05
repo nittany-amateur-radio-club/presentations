@@ -34,7 +34,7 @@ knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ::: columns
 ::: {.column width="40%"}
@@ -44,7 +44,7 @@ knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/
 :::
 
 ::: {.column width="60%"}
-*APRS originated in 1982, when Bruninga wrote his first data map program that plotted the positions of US Navy ships for the Apple II platform. A couple of years later, he developed what he called the Connectionless Emergency Traffic System (CETS) on the VIC-20 and C64 platforms for digital packet communications to support an endurance race. *
+*APRS originated in 1982, when Bruninga wrote his first data map program that plotted the positions of US Navy ships for the Apple II platform. A couple of years later, he developed what he called the Connectionless Emergency Traffic System (CETS) on the VIC-20 and C64 platforms for digital packet communications to support an endurance race.*
 
 [ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
 :::
@@ -60,9 +60,7 @@ knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/
 :::
 
 ::: {.column width="60%"}
-
-*The program was ported to the IBM PC platform in 1988, and was renamed APRS in 1992. The recognized North American APRS frequency is 144.39 MHz, and APRS is globally linked via the internet.*
-Bruninga founded the [Appalachian Trail Golden Packet (ATPG) event](https://atgoldenpacket.net), which fields APRS nodes from Stone Mountain in Georgia to Mount Katahdin in Maine each July.*
+*The program was ported to the IBM PC platform in 1988, and was renamed APRS in 1992. The recognized North American APRS frequency is 144.39 MHz, and APRS is globally linked via the internet.* Bruninga founded the [Appalachian Trail Golden Packet (ATPG) event](https://atgoldenpacket.net), which fields APRS nodes from Stone Mountain in Georgia to Mount Katahdin in Maine each July.\*
 
 [ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
 :::
@@ -71,7 +69,6 @@ Bruninga founded the [Appalachian Trail Golden Packet (ATPG) event](https://atgo
 ------------------------------------------------------------------------
 
 ::: columns
-
 ::: {.column width="40%"}
 ```{r, echo=FALSE, fig.cap="Bob Bruniga WB4APR SK"}
 knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/images/image_1_preview.jpg")
@@ -79,14 +76,11 @@ knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/
 :::
 
 ::: {.column width="60%"}
-
 *Bruninga founded the [Appalachian Trail Golden Packet (ATPG) event](https://atgoldenpacket.net), which fields APRS nodes from Stone Mountain in Georgia to Mount Katahdin in Maine each July.*
 
 [ARRL Obit](http://www.arrl.org/news/aprs-developer-bob-bruninga-wb4apr-sk)
 :::
-
 :::
-
 
 ## Packet radio
 
@@ -99,13 +93,13 @@ knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/
 
 ## Packets
 
-- Shared frequency (U.S. 144.39 MHz)
-- Packets sent asychronously
-- No collision detection, but...
-    - Receivers at varying distances from the source.
-    - Packets are either detected or lost.
-- Most packets are picked up by some station
-- Overall packet loss is low.
+-   Shared frequency (U.S. 144.39 MHz)
+-   Packets sent asychronously
+-   No collision detection, but...
+    -   Receivers at varying distances from the source.
+    -   Packets are either detected or lost.
+-   Most packets are picked up by some station
+-   Overall packet loss is low.
 
 <https://web.stanford.edu/class/ee179/labs/Lab8.html>
 
@@ -115,7 +109,7 @@ knitr::include_graphics("https://www.wia.org.au/newsevents/news/2022/20220209-1/
 
 APRS Protocol Reference: <http://www.aprs.org/doc/APRS101.PDF>
 
---- 
+------------------------------------------------------------------------
 
 ## Radio-side
 
@@ -142,21 +136,21 @@ APRS Protocol Reference: <http://www.aprs.org/doc/APRS101.PDF>
 
 # What is it for?
 
-## {background-iframe="https://aprs.fi/?call=W3TM-2&others=1"}
+##  {background-iframe="https://aprs.fi/?call=W3TM-2&others=1"}
 
 <https://aprs.fi/?call=W3TM-2&others=1>
 
-## {background-iframe="https://amateur.sondehub.org/#!mt=Mapnik&mz=5&qm=12h&mc=53.47497,-2.21924"}
+##  {background-iframe="https://amateur.sondehub.org/#!mt=Mapnik&mz=5&qm=12h&mc=53.47497,-2.21924"}
 
 <https://amateur.sondehub.org/#!mt=Mapnik&mz=5&qm=12h&mc=53.47497,-2.21924>
 
 ## Other uses
 
-- Weather
-- SOTA/POTA
-- Links to SMS via <https://smsgte.org
-- APRS-TT for hams without an APRS-enabled rig
-- Tracking the [International Space Station (ISS)](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FISS&timerange=3600&tail=3600)
+-   Weather
+-   SOTA/POTA
+-   Links to SMS via \<https://smsgte.org
+-   APRS-TT for hams without an APRS-enabled rig
+-   Tracking the [International Space Station (ISS)](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FISS&timerange=3600&tail=3600)
 
 ## Voice Alert
 
