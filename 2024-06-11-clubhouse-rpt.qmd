@@ -1,0 +1,62 @@
+---
+title: "Clubhouse/Field Day Report"
+subtitle: "June 2024"
+author: "Rick Gilmore W3TM"
+format: 
+  revealjs:
+    slide-number: true
+    footer: "NARC Mtg 2024-06-11"
+    logo: img/NARC-logo.png
+---
+
+## Clubhouse report
+
+- NARC-1
+- NARC-2
+- See also <https://nittany-amateur-radio-club.github.io/clubhouse>
+
+## [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
+
+- ICOM IC-7610 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+- ICOM SM-30 desk mic
+
+## [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
+
+- FlexRadio Flex 6400M 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+
+## {background-iframe="https://nittany-amateur-radio-club.github.io/field-day/"}
+
+---
+
+- Saturday, June 22 - Sunday, June 23 (2:00 PM EDT - 2:00 PM EDT)
+- NARC Clubhouse
+  - Class 2 (transmitters) D (Delta), [home/permanent station on mains power](http://www.arrl.org/field-day-rules) 
+  - 100 W max
+  - W3YA callsign
+- Dedicated (bonus) VHF+ station (W3SWL)
+- Food & drink
+  
+## Survey Results
+
+- [Attendees](https://nittany-amateur-radio-club.github.io/field-day/planning.html#attending-and-operating)
+- [Modes](https://nittany-amateur-radio-club.github.io/field-day/planning.html#modes)
+- [Volunteers](https://nittany-amateur-radio-club.github.io/field-day/planning.html#volunteers)
+- <https://nittany-amateur-radio-club.github.io/field-day/>
+
+## New this year
+
+- Field/portable station at Jo Hays Vista
+  - Sat 2p-5p; Sun 11p-2p
+  - Either 1A (W3GA) or alternative transmitter (W3YA)
+  - FM + linear satellite set-up?
+  - Get on the air (GOTA) station?
+- New logging software ([ACLog](https://www.n3fjp.com/aclog.html) by N3FJP)
+- Inviting 2m and 70cm simplex QSOs from MS 150 operators or others in the valley.
+
+## Be Radio Active! June 22-23
+
+![ARRL Field Day 2024 Logo](img/2024-ARRL-Field-Day-Logo-DO-NOT-EDIT-OR-COPY.jpg){width=50%}
