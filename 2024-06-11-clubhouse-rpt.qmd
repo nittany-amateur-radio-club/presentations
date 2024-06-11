@@ -7,7 +7,16 @@ format:
     slide-number: true
     footer: "NARC Mtg 2024-06-11"
     logo: img/NARC-logo.png
+    chalkboard: true
+    multiplex: true
 ---
+
+---
+
+```{r}
+code <- qrcode::qr_code("https://nitany-amateur-radio-club.github.io/presentations/2024-06-11-clubhouse-rpt.html")
+plot(code)
+```
 
 ## Clubhouse report
 
