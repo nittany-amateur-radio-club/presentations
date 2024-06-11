@@ -61,11 +61,12 @@ plot(code)
 
 - Field/portable station at Jo Hays Vista
   - Sat 2p-5p; Sun 11p-2p
-  - Either 1A (W3GA) or alternative transmitter (W3YA)
+  - Either 1A (W3GA) or alternative transmitter for W3YA
   - FM + linear satellite set-up?
   - Get on the air (GOTA) station?
 - New logging software ([ACLog](https://www.n3fjp.com/aclog.html) by N3FJP)
-- Inviting 2m and 70cm simplex QSOs from MS 150 operators or others in the valley.
+- New [Halibut Electronics audio interface ](https://electronics.halibut.com/product-category/ham/hhi) for NARC1
+- Inviting 2m and 70cm simplex QSOs from MS 150 operators or others in the valley
 
 ## Be Radio Active! June 22-23
 
