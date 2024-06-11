@@ -14,7 +14,7 @@ format:
 ---
 
 ```{r}
-code <- qrcode::qr_code("https://nitany-amateur-radio-club.github.io/presentations/2024-06-11-clubhouse-rpt.html")
+code <- qrcode::qr_code("https://nittany-amateur-radio-club.github.io/presentations/2024-06-11-clubhouse-rpt")
 plot(code)
 ```
 
