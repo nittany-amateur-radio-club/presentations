@@ -14,7 +14,8 @@ format:
 ---
 
 ```{r}
-code <- qrcode::qr_code("https://nittany-amateur-radio-club.github.io/presentations/2024-06-11-clubhouse-rpt")
+url <- "https://nittany-amateur-radio-club.github.io/presentations/2024-06-11-clubhouse-rpt"
+code <- qrcode::qr_code(url)
 plot(code)
 ```
 
@@ -53,7 +54,7 @@ plot(code)
 
 - [Attendees](https://nittany-amateur-radio-club.github.io/field-day/planning.html#attending-and-operating)
 - [Modes](https://nittany-amateur-radio-club.github.io/field-day/planning.html#modes)
-- [Volunteers](https://nittany-amateur-radio-club.github.io/field-day/planning.html#volunteers)
+- [Volunteers](https://nittany-amateur-radio-club.github.io/field-day/planning.html#volunteering)
 - <https://nittany-amateur-radio-club.github.io/field-day/>
 
 ## New this year
