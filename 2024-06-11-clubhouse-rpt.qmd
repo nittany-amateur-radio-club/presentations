@@ -21,9 +21,21 @@ plot(code)
 
 ## Clubhouse report
 
-- NARC-1
-- NARC-2
-- See also <https://nittany-amateur-radio-club.github.io/clubhouse>
+:::: {.columns}
+::: {.column width="50%"}
+- [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
+- [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
+:::
+
+::: {.column width="50%"}
+```{r}
+#| fig-cap: "<https://nittany-amateur-radio-club.github.io/clubhouse>"
+url <- "https://nittany-amateur-radio-club.github.io/clubhouse"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+:::
+::::
 
 ## [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
 
@@ -31,12 +43,17 @@ plot(code)
 - Elecraft KPA-1500 amplifier with ATU
 - PC with dual monitors
 - ICOM SM-30 desk mic
+- Footswitch
+- Full [software suite](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html#software-summary)
 
 ## [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
 
-- FlexRadio Flex 6400M 160-6m 100 W transceiver
+- [FlexRadio Flex 6400M](https://nittany-amateur-radio-club.github.io/clubhouse/flex-6400M.html) 160-6m 100 W transceiver
 - Elecraft KPA-1500 amplifier with ATU
 - PC with dual monitors
+- Yaesu desk mic
+- Footswitch
+- Full [software suite](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html#software-summary)
 
 ## {background-iframe="https://nittany-amateur-radio-club.github.io/field-day/"}
 
@@ -64,10 +81,17 @@ plot(code)
   - Either 1A (W3GA) or alternative transmitter for W3YA
   - FM + linear satellite set-up?
   - Get on the air (GOTA) station?
-- New logging software ([ACLog](https://www.n3fjp.com/aclog.html) by N3FJP)
-- New [Halibut Electronics audio interface ](https://electronics.halibut.com/product-category/ham/hhi) for NARC1
 - Inviting 2m and 70cm simplex QSOs from MS 150 operators or others in the valley
 
-## Be Radio Active! June 22-23
+---
+
+- Rotating Yagis!
+  - [Green Heron rotator controllers](https://www.greenheronengineering.com/product/rotator-controller-rt-21/) for Mosely antennas (20m-10m)
+  - *Coming soon*: Control rotators from NARC1 and NARC2 (thanks, K0LO)
+- New logging software ([ACLog](https://www.n3fjp.com/aclog.html) by N3FJP)
+  - N3LI spearheading
+- New [Halibut Electronics audio interface ](https://electronics.halibut.com/product-category/ham/hhi) for NARC1
+
+## Be Radio Active with us! June 22-23
 
 ![ARRL Field Day 2024 Logo](img/2024-ARRL-Field-Day-Logo-DO-NOT-EDIT-OR-COPY.jpg){width=50%}
