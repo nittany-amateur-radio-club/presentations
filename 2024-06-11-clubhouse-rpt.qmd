@@ -53,7 +53,7 @@ plot(code)
 - PC with dual monitors
 - Yaesu desk mic
 - Footswitch
-- Full [software suite](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html#software-summary)
+- Full [software suite](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html#software-summary)
 
 ## {background-iframe="https://nittany-amateur-radio-club.github.io/field-day/"}
 
