@@ -1,0 +1,76 @@
+---
+title: "Clubhouse Report"
+subtitle: "July 2024"
+author: "Rick Gilmore W3TM"
+format: 
+  revealjs:
+    slide-number: true
+    footer: "NARC Mtg 2024-07-09"
+    logo: img/NARC-logo.png
+    chalkboard: true
+    multiplex: true
+---
+
+---
+
+```{r}
+url <- "https://nittany-amateur-radio-club.github.io/presentations/2024-07-09-clubhouse-rpt"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+
+## Clubhouse report
+
+:::: {.columns}
+::: {.column width="50%"}
+- [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
+- [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
+:::
+
+::: {.column width="50%"}
+```{r}
+#| fig-cap: "<https://nittany-amateur-radio-club.github.io/clubhouse>"
+url <- "https://nittany-amateur-radio-club.github.io/clubhouse"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+:::
+::::
+
+## [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
+
+- ICOM IC-7610 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+- ICOM SM-30 desk mic
+- Footswitch
+- Full [software suite](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html#software-summary)
+
+## [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
+
+- [FlexRadio Flex 6400M](https://nittany-amateur-radio-club.github.io/clubhouse/flex-6400M.html) 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+- Yaesu desk mic
+- Footswitch
+- Full [software suite](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html#software-summary)
+
+## New developments
+
+- Rotating Yagis!
+  - [Green Heron rotator controllers](https://www.greenheronengineering.com/product/rotator-controller-rt-21/) for Mosely antennas (20m-10m)
+  - Controller server for NARC1 and NARC2 (thanks, K0LO)
+- New logging software ([ACLog](https://www.n3fjp.com/aclog.html) by N3FJP)
+  - N3LI spearheading
+
+---
+
+- New [Halibut Electronics](https://electronics.halibut.com/product-category/ham/hhi) for NARC1: [Contest Controller](https://electronics.halibut.com/product/hhi-contesting-console/), [Radio Pro](https://electronics.halibut.com/product/hhi-radio-pro/)
+
+## Coming soon...
+
+- Work day(s)
+  - Replace feedlines
+  - Install 40m/80m fan dipoles
+  - Install 160m dipole
+  - Take down 80m-10m EFHW antenna
