@@ -7,3 +7,4 @@
 - [Presentation](https://nittany-amateur-radio-club.github.io/presentations/for-the-love-of-coax.html) on coax by W3TM (formerly K3ROG) on 2023-02-14.
 - [Presentation](https://nittany-amateur-radio-club.github.io/presentations/mountaintop-update-2023-03-28.html) on antenna upgrades/experiments by W3TM and W3EDP.
 - Draft [presentation](https://nittany-amateur-radio-club.github.io/presentations/aprs.html) (not given) on APRS by W3TM.
+- [Presentation for July 2024](https://nittany-amateur-radio-club.github.io/presentations/2024-07-09-clubhouse-rpt) membership meeting by W3TM.
