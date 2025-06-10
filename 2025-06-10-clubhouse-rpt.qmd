@@ -1,0 +1,242 @@
+---
+title: "Clubhouse/Field Day Report"
+subtitle: "June 2025"
+author: "Rick Gilmore W3TM"
+format: 
+  revealjs:
+    slide-number: true
+    footer: "NARC Mtg 2025-06-10"
+    logo: img/NARC-logo.png
+    chalkboard: true
+    multiplex: true
+---
+
+---
+
+```{r}
+#| label: fig-qr-slides
+#| fig-cap: "Link to this presentation"
+url <- "https://nittany-amateur-radio-club.github.io/presentations/2025-06-10-clubhouse-rpt"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+
+## Clubhouse report
+
+:::: {.columns}
+::: {.column width="50%"}
+- [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
+- [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
+:::
+
+::: {.column width="50%"}
+```{r}
+#| fig-cap: "<https://nittany-amateur-radio-club.github.io/station>"
+url <- "https://nittany-amateur-radio-club.github.io/station"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+:::
+::::
+
+## [NARC-1](https://nittany-amateur-radio-club.github.io/station/narc1.html)
+
+- ICOM IC-7610 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+- ICOM SM-30 desk mic
+- Footswitch
+- Hallibut Electronics contesting console audio interface
+- Full [software suite](https://nittany-amateur-radio-club.github.io/station/narc2.html#software-summary)
+
+## [NARC-2](https://nittany-amateur-radio-club.github.io/station/narc2.html)
+
+- [FlexRadio Flex 6400M](https://nittany-amateur-radio-club.github.io/station/flex-6400M.html) 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+- (On loan) Inrad desk mic
+- Footswitch
+- Hallibut Electronics contesting console audio interface
+- Full [software suite](https://nittany-amateur-radio-club.github.io/station/narc2.html#software-summary)
+
+---
+
+{{< video https://youtu.be/LQiOA7euaYA?si=sFGOxa-kqtblFDuM height=70% width=100% >}}
+
+Road to Nowhere, Talking Heads
+---
+
+```{r}
+#| label: fig-qr-field-day-survey
+#| fig-cap: <https://forms.gle/hSM5RguHaffvAVCQ8>
+url <- "https://docs.google.com/forms/d/e/1FAIpQLSeYejmGs4le-jEmIis65rXzRvdOegx9ANIZ55taGLGpSF74vQ/viewform?usp=header"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+
+---
+
+## {background-iframe="https://nittany-amateur-radio-club.github.io/field-day/"}
+
+## What is Field Day?
+
+::: {.incremental}
+- a contest
+- a social event
+- a *field* operating exercise
+- an open house for amateur radio
+- a ton of fun in the rain & sun
+:::
+
+---
+
+- Saturday, June 28 - Sunday, June 29 (2:00 PM EDT - 2:00 PM EDT)
+- NARC Clubhouse
+  - Class 2 (transmitters) D (Delta), [home/permanent station on mains power](http://www.arrl.org/field-day-rules) 
+  - Power: 100 W or 500 W?
+  - W3YA callsign
+- Food & drink
+
+## Classes
+
+- A: Portable (club/non-club)
+- B: Portable (one or two person)
+- C: Mobile
+- D: Home (licensed or permanent locations on commercial power)
+- E: Home (emergency power for radios)
+- F: Emergency Operation Centers
+
+## Classes
+
+- A: Portable (club/non-club)
+- B: Portable (one or two person)
+- C: Mobile
+- **D: Home (licensed or permanent locations on commercial power)**
+- E: Home (emergency power for radios)
+- F: Emergency Operation Centers
+
+## Power multiplier
+
+- 100-500 W: 1x
+- 5-100 W: 2x
+- <5 W (battery, solar): 5x
+
+## QSO points
+
+- Phone: 1 pt
+- CW/Digital: 2 pts
+
+## Exchange (phone)
+
+CQ Field Day CQ Field Day Whiskey Three Yankee Alpha Field Day
+
+*Whiskey Three Tango Mike*
+
+Whiskey Three Tango Mike Two Delta, Whiskey Papa Alpha
+
+*QSL. One Alpha, Whiskey Papa Alpha*
+
+QSL. Thanks. Whiskey Three Yankee Alpha. QRZed.
+
+## Exchange (phone)
+
+::: {.callout-warning}
+## Personal opinion
+
+Saying "please copy..." doesn't add information.
+
+:::
+
+## Exchange (CW)
+
+CQ FD CQ FD de W3YA W3YA 
+
+*W3TM*
+
+W3TM de W3YA 2D 2D WPA WPA
+
+*QSL 1A 1A WPA WPA*
+
+QSL TU W3YA FD
+
+## ARRL/RAC Sections
+
+![](https://www.mapability.com/ei8ic/maps/ARRL_RAC_Sections_2023_1254x969.png){fig-align="center"}
+
+## Survey results
+
+- [Attendees](https://nittany-amateur-radio-club.github.io/field-day/planning.html#attending-and-operating)
+- [Modes](https://nittany-amateur-radio-club.github.io/field-day/planning.html#modes)
+- [Volunteers](https://nittany-amateur-radio-club.github.io/field-day/planning.html#volunteering)
+- <https://nittany-amateur-radio-club.github.io/field-day/>
+
+## Club goal-setting
+
+- Exceed 2024 QSO total
+
+---
+
+![<https://nittany-amateur-radio-club.github.io/field-day/results.html>](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-qsos-by-year-1.png)
+
+---
+
+![Recent years](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-qsos-by-year-recent-1.png)
+
+---
+
+![Bonus points](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-bonus-by-year-1.png)
+
+---
+
+![Total score](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-score-by-year-1.png)
+
+---
+
+![Bonus point proportion of total score](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-bonus-proportion-by-year-1.png)
+
+---
+
+![Number of transmitters](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-transmitters-by-year-1.png)
+
+---
+
+![Number of participants](https://nittany-amateur-radio-club.github.io/field-day/results_files/figure-html/fig-particip-by-year-1.png)
+
+## Club goal-settting
+
+- Exceed 2024 operator total (*n*=13)
+- Exceed 2024 attendee total (*n*=24)
+- Have 75% of attendees operate (last year = 54%)
+
+## Club goal-setting
+
+- Phone + CW | Digi contacts on 80, 40, 20, 15, 10m
+
+## Any individual goals?
+
+- New modes, bands, radios?
+
+## How you can help
+
+- Help plan, order/buy food & drink
+- Help with publicity
+- Organize public info table
+- Send message to ARRL Section Manager
+
+## How you can help
+
+- Originate 10 messages using standard formats
+- Make >= 1 satellite QSO
+- Make 5 QSOs on alternative power
+- Copy ARRL bulletin
+
+## How you can help
+
+- Plan and execute an educational activity
+- Invite local elected official to visit
+- Invite members of the public to visit
+- Organize a visit by a member from an agency (e.g., Red Cross)
+
+## Let's connect with radio
+
+![ARRL Field Day 2025 Logo](img/2025-ARRL-Field-Day-Logo-DO-NOT-EDIT-OR-MODIFY.jpg){width=50%}
