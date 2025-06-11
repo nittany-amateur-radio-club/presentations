@@ -25,8 +25,8 @@ plot(code)
 
 :::: {.columns}
 ::: {.column width="50%"}
-- [NARC-1](https://nittany-amateur-radio-club.github.io/clubhouse/narc1.html)
-- [NARC-2](https://nittany-amateur-radio-club.github.io/clubhouse/narc2.html)
+- [NARC-1](https://nittany-amateur-radio-club.github.io/station/narc1.html)
+- [NARC-2](https://nittany-amateur-radio-club.github.io/station/narc2.html)
 :::
 
 ::: {.column width="50%"}
