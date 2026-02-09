@@ -1,7 +1,14 @@
 ---
 title: "Web resources for ham learning"
-format: revealjs
-
+subtitle: "February 2026"
+author: "Rick Gilmore W3TM"
+format: 
+  revealjs:
+    slide-number: true
+    footer: "Web resources 2026-02-09"
+    logo: img/NARC-logo.png
+    chalkboard: true
+    multiplex: true
 ---
 
 ## About
