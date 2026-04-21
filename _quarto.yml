@@ -1,0 +1,64 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    # - "*.Rmd"
+  output-dir: "docs"
+  execute-dir: project
+  
+execute:
+  freeze: auto  # re-render only when source changes
+
+website:
+  title: "NARC Presentations"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "Slides"
+        contents:
+          - text: "2026-05-12 mtg"
+            href: 2026-05-12-web-resources.qmd
+          - text: "2025-06-10 mtg"
+            href: 2025-06-10-clubhouse-rpt.qmd
+          - text: "2024-07-09 mtg"
+            href: 2024-07-09-clubhouse-rpt.qmd
+          - text: "2024-06-11 mtg"
+            href: 2024-06-11-clubhouse-rpt.qmd
+  repo-url: https://github.com/nittany-amateur-radio-club/presentations/
+  repo-actions: [edit, issue]
+  # repo-subdir: src
+  page-footer:
+    left: "Copyright © Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    center: "Built with [Quarto](https://quarto.org/)"
+    right: 
+      - icon: github
+        href: https://github.com/nittany-amateur-radio-club/presentations/
+    background: light
+    border: true
+  page-navigation: true
+  bread-crumbs: false
+  
+format:
+  html:
+    fontsize: 1.1em
+    
+    toc: true
+    toc-depth: 4
+    
+    fig-align: center
+  
+    number-sections: false
+    citations-hover: true
+    footnotes-hover: true
+    date-modified: last-modified
+    date: today
+    html-math-method: mathjax
+
+editor: source
+
+# knitr:
+#   opts_chunk:
+#     fig.path: include/fig/
+    

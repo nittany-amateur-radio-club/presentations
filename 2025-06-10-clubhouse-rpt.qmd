@@ -5,10 +5,10 @@ author: "Rick Gilmore W3TM"
 format: 
   revealjs:
     slide-number: true
-    footer: "NARC Mtg 2025-06-10"
-    logo: img/NARC-logo.png
+    footer: "NARC Mtg 2025-06-10 • [NARC Presentations](index.html)"
+    logo: include/img/NARC-logo.png
     chalkboard: true
-    multiplex: true
+    # multiplex: true
 ---
 
 ---
@@ -16,7 +16,7 @@ format:
 ```{r}
 #| label: fig-qr-slides
 #| fig-cap: "Link to this presentation"
-url <- "https://nittany-amateur-radio-club.github.io/presentations/2025-06-10-clubhouse-rpt"
+url <- "https://nittany-amateur-radio-club.github.io/presentations/2025-06-10-clubhouse-rpt.html"
 code <- qrcode::qr_code(url)
 plot(code)
 ```
@@ -239,4 +239,4 @@ QSL TU W3YA FD
 
 ## Let's connect with radio
 
-![ARRL Field Day 2025 Logo](img/2025-ARRL-Field-Day-Logo-DO-NOT-EDIT-OR-MODIFY.jpg){width=50%}
+![ARRL Field Day 2025 Logo](include/img/2025-ARRL-Field-Day-Logo-DO-NOT-EDIT-OR-MODIFY.jpg){width=50%}

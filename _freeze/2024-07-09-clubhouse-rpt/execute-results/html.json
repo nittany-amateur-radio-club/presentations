@@ -1,0 +1,21 @@
+{
+  "hash": "6179e27ad311e260cd645a99762dd96a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Clubhouse Report\"\nsubtitle: \"July 2024\"\nauthor: \"Rick Gilmore, W3TM\"\nformat: \n  revealjs:\n    slide-number: true\n    footer: \"NARC Mtg 2024-07-09 • [NARC Presentations](index.html)\"\n    logo: include/img/NARC-logo.png\n    chalkboard: true\n    # multiplex: true\n---\n\n---\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](2024-07-09-clubhouse-rpt_files/figure-revealjs/unnamed-chunk-1-1.png){width=960}\n:::\n:::\n\n\n## Clubhouse report\n\n:::: {.columns}\n::: {.column width=\"50%\"}\n- [NARC-1](https://nittany-amateur-radio-club.github.io/station/narc1.html)\n- [NARC-2](https://nittany-amateur-radio-club.github.io/station/narc2.html)\n:::\n\n::: {.column width=\"50%\"}\n\n::: {.cell}\n::: {.cell-output-display}\n![<https://nittany-amateur-radio-club.github.io/clubhouse>](2024-07-09-clubhouse-rpt_files/figure-revealjs/unnamed-chunk-2-1.png){width=960}\n:::\n:::\n\n:::\n::::\n\n## [NARC-1](https://nittany-amateur-radio-club.github.io/station/narc1.html)\n\n- ICOM IC-7610 160-6m 100 W transceiver\n- Elecraft KPA-1500 amplifier with ATU\n- PC with dual monitors\n- ICOM SM-30 desk mic\n- Footswitch\n- Full [software suite](https://nittany-amateur-radio-club.github.io/station/narc2.html#software-summary)\n\n## [NARC-2](https://nittany-amateur-radio-club.github.io/station/narc2.html)\n\n- [FlexRadio Flex 6400M](https://nittany-amateur-radio-club.github.io/station/flex-6400M.html) 160-6m 100 W transceiver\n- Elecraft KPA-1500 amplifier with ATU\n- PC with dual monitors\n- Yaesu desk mic\n- Footswitch\n- Full [software suite](https://nittany-amateur-radio-club.github.io/station/narc2.html#software-summary)\n\n## New developments\n\n- Rotating Yagis!\n  - [Green Heron rotator controllers](https://www.greenheronengineering.com/product/rotator-controller-rt-21/) for Mosely antennas (20m-10m)\n  - Controller server for NARC1 and NARC2 (thanks, K0LO)\n- New logging software ([ACLog](https://www.n3fjp.com/aclog.html) by N3FJP)\n  - N3LI spearheading\n\n---\n\n- New [Halibut Electronics](https://electronics.halibut.com/product-category/ham/hhi) for NARC1: [Contest Controller](https://electronics.halibut.com/product/hhi-contesting-console/), [Radio Pro](https://electronics.halibut.com/product/hhi-radio-pro/)\n\n## Coming soon...\n\n- Work day(s)\n  - Replace feedlines\n  - Install 40m/80m fan dipoles\n  - Install 160m dipole\n  - Take down 80m-10m EFHW antenna\n",
+    "supporting": [
+      "2024-07-09-clubhouse-rpt_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

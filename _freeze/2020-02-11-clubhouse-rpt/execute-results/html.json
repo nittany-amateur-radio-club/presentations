@@ -1,0 +1,15 @@
+{
+  "hash": "49b9c5e404ab2b6748a6a7b91ecdfe90",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"2020-02-11 Clubhouse Report\"\nauthor: \"Rick Gilmore K3ROG\"\ndate: \"2026-02-09 16:20:43.06458\"\ncss: css/ioslides.css\noutput:\n  ioslides_presentation:\n    logo: img/NARC-logo.png\n    self_contained: false\n    lib_dir: libs\n    widescreen: true\n    incremental: false\n    transition: default\n---\n\n\n\n## Recent activities\n\n- Club equipment was used for Winter Field Day by N3LI, W3SWL, & K3ROG.\n\n## [Winter Field Day](https://www.winterfieldday.com/)\n\n- Saturday, 2020-01-25 (1900 UTC) - Sunday, 2020-01-26 (1900 UTC)\n- N3LI, W3SWL, and K3ROG operated from Cabin 5 in Prince Gallitzin State Park; W3EDP visited\n- Slide show: <https://photos.app.goo.gl/Nscxfhm4qpBi5epn6>\n\n---\n\n- SSB, JS8Call, PSK31\n- Doublet; 80/40m trap dipole (inverted V); endfed vertical\n- IC-7300, IC-7100, Flex 6600\n\n---\n\n- SSB QSOs/points (164/164)\n- CW/Digital QSOs (27/54)\n- 2x power (< 100W) multiplier\n- Multipliers (20m ph; 40m ph & digi; 80m ph & digi)\n- Bonus for remote op\n- 3,680 (est) score\n\n## Quick-start guides\n\n- [Clubhouse guide](https://nittany-amateur-radio-club.github.io/clubhouse/clubhouse-guide.html)\n- [IC-7610](https://nittany-amateur-radio-club.github.io/clubhouse/IC-7610.html)\n- [Elecraft K3S](https://nittany-amateur-radio-club.github.io/clubhouse/elecraft-k3s.html)\n- [Elecraft KPA1500 amplifier](https://nittany-amateur-radio-club.github.io/clubhouse/KPA1500.html)\n\n## Future work\n\n- Repair 40m dipole (West 60' Tower)\n- Finish cabinet installation\n\n## Under consideration\n\n- Replace keyed lock with keyless\n- Run 2nd coax lines to NARC-1 and NARC-2 to take advantage of dual receivers\n- Digital-only station\n- Research rotators & controller replacements\n- Replace PCs and monitors\n\n\n## Club activities\n  \n<iframe src=\"https://calendar.google.com/calendar/embed?src=nittany.amateur.radio.club%40gmail.com&ctz=America%2FNew_York\" style=\"border: 0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\n## Nets\n\n<iframe src=\"https://calendar.google.com/calendar/embed?src=n0491u4fblo9ii3r7jd229do00%40group.calendar.google.com&ctz=America%2FNew_York\" style=\"border: 0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\n## Events\n  \n<iframe src=\"https://calendar.google.com/calendar/embed?src=guioc379gct3ivmjt7ilejrp90%40group.calendar.google.com&ctz=America%2FNew_York\" style=\"border: 0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\n## Questions?\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

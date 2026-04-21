@@ -1,0 +1,15 @@
+{
+  "hash": "24ff7ae26479d6e13cf1363259382980",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"NARC Clubhouse Report\"\nsubtitle: \"October 2020\"\nauthor: \"Rick Gilmore K3ROG\"\ndate: \"2026-02-09 16:20:46.303789\"\ncss: css/ioslides.css\noutput:\n  ioslides_presentation:\n    logo: img/NARC-logo.png\n    self_contained: false\n    lib_dir: libs\n    widescreen: true\n    incremental: false\n    transition: default\n---\n\n\n\n## Recent activities\n\n- Work day (K3ROG, N3LI, W3EDP, W0LO)\n  - Preparation for network installation\n  - Install new rack for equipment\n- K0LO & W3EDP\n  - Ordered and installed new network cabinet\n  - Awaiting new fiber optic connection replacement by N3EB\n\n## Radio status\n\n## NARC 1 (Icom IC-7610)\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Photo: Mike Coslo](img/narc-1.jpeg){fig-align='center' height=500px}\n:::\n:::\n\n\n## NARC 2 (Elecraft K3S)\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Photo: Mike Coslo](img/narc-2.jpeg){fig-align='center' height=500px}\n:::\n:::\n\n\n## NARC 3 (Icom 9100)\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Photo: Mike Coslo](img/narc-3.jpeg){fig-align='center' height=500px}\n:::\n:::\n\n\n## NARC packet\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Photo: Mike Coslo](img/narc-packet.jpeg){fig-align='center' height=500px}\n:::\n:::\n\n\n---\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Photo: Mike Coslo](img/clubhouse-panorama.jpeg){fig-align='center' height=350px}\n:::\n:::\n\n\n## Future work\n\n- In the shack\n    - Decide on wifi on/off mechanism and complete wifi installation (K0LO, W3EDP)\n    - Purchase additional shelves, bins (K3ROG)\n    - Update user guides and manuals (K3ROG)\n- Peform [antenna maintenance](antenna-status-2020-09-26.html) prior to contest season\n    - Repair and reinstall multi-band Yagi on North 80'\n    - Repair multi-band Yagi on East 60'\n\n## Under consideration\n\n- Research rotators & controller replacements\n    - Goal: Computer-controlled rotation of antennas\n- Replace keyed lock with keyless\n- Run 2nd coax lines to NARC-1 and NARC-2 to take advantage of dual receivers in both rigs\n- Replace PCs and monitors\n\n## Recent clubhouse use\n\n- October 3 • ARRL Simulated Emergency Test (SET), K3CWP, N3LI, K3ROG\n- October 10-11 • PA QSO Party, NK8Q\n- October 24-25 • CQ WWW DX SSB, NK8Q\n\n## Future clubhouse use\n\n- November 7-9 • ARRL Sweepstakes CW\n- November 21-23 • ARRL Sweepstakes SSB\n- November 28-29 • CQ WW DX CW\n- December 4-6  • ARRL 160m\n\n## Questions?\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
