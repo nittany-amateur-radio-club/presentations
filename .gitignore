@@ -7,3 +7,4 @@ presentations.Rproj
 
 /.quarto/
 **/*.quarto_ipynb
+.positai

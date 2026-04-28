@@ -156,6 +156,7 @@ The screenshot images may be clicked on to navigate to YouTube.
 ::: {.column width=50%}
 ::: {#fig-sunday-qrp-ssb}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ac54Gj7iS98?si=opIkDV5EhTuw6XrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 @Livestream2026-rq
 :::
 :::
@@ -165,6 +166,21 @@ The screenshot images may be clicked on to navigate to YouTube.
 
 @k4swl-2026-kq
 :::
+:::
+::::
+
+## Demos/Recs
+
+:::: {.columns}
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VfJghE4Np_w?si=Bv1h5bBYEfjy-xVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@KM4ACK2026-wi
+:::
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ygu0jv6Pb5E?si=te9gYYTg7RhgVztx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Antennas2026-ro
 :::
 ::::
 

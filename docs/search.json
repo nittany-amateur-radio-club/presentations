@@ -730,5 +730,16 @@
     "title": "APRS",
     "section": "iGate",
     "text": "iGate\nSends packets to APRS-IS.\nMay or may not digipeat."
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#demos",
+    "href": "2026-05-12-web-resources.html#demos",
+    "title": "Web resources for ham learning",
+    "section": "Demos",
+    "text": "Demos\n\n\n\n\nK. Radio (2026)\n\nContent",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
   }
 ]
