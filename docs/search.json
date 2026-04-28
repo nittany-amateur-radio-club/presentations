@@ -24,7 +24,7 @@
     "href": "2026-05-12-web-resources.html#about",
     "title": "Web resources for ham learning",
     "section": "About",
-    "text": "About\n\nThese slides document some web-based resources that club members find useful.\n\n\n\n\n\n\n\nImportant\n\n\nThe screenshot images may be clicked on to navigate to YouTube.",
+    "text": "About\n\nThese slides document some web-based resources that club members find useful.\nThe focus is on YouTube, Reddit, and Substack\n\n\n\n\n\n\n\nImportant\n\n\nThe screenshot images may be clicked on to navigate to the sites.",
     "crumbs": [
       "Slides",
       "2026-05-12 mtg"
@@ -222,7 +222,7 @@
     "href": "2026-05-12-web-resources.html#references",
     "title": "Web resources for ham learning",
     "section": "References",
-    "text": "References\n\n\n\n\n(k4swl), Thomas. 2026. My iPhone Was the Battery! First Pebble HF POTA Activation! Youtube. https://www.youtube.com/watch?v=uhSSjHlPPkc.\n\n\nLivestream, Qrp Net. 2026. Sunday QRP SSB Net Livestream (Apr 12). Youtube. https://www.youtube.com/watch?v=ac54Gj7iS98.\n\n\nMinds, Tech. 2026. Build Your Own WSPR Beacon for Less Than $20 with an ESP32 and an Si5351! Youtube. https://www.youtube.com/watch?v=s-x50tweSFw.\n\n\nRadio, Km6lyw. 2026. Off-Grid Radio DATA Communications Center! Youtube. https://www.youtube.com/watch?v=trtgnBO8bS8&t=295s.\n\n\nRadio, Q5 Worldwide Ham. 2026. Inside a Caribbean Contest Battle: K5ZD Vs 8P5A | Contest Crew. Youtube. https://www.youtube.com/watch?v=DzSoY3MfXcQ.\n\n\nWorkbench, Ham Radio. 2025. HRWB Ep 253 with Hans Summers G0UPL of QRP Labs. Youtube. https://www.youtube.com/watch?v=_xZ56EXlFRI&t=1166s.",
+    "text": "References\n\n\n\n\nAntennas, Kb9vbr. 2026. Two Antennas Tested in Real Conditions - HF-010 Vs PERformer! Youtube. https://www.youtube.com/watch?v=Ygu0jv6Pb5E.\n\n\nDXEngineering. 2025. Working Ham Radio Satellites with a Portable Handheld Yagi Antenna. Youtube. https://www.youtube.com/watch?v=k_Rc8TUesGw&t=16s.\n\n\nFlexRadioSystems. 2026. Is SDR Really This Easy? Mike KI8R’s First Look at the FLEX-8000. Youtube. https://www.youtube.com/watch?v=6PC7ACdW0KQ.\n\n\n(k4swl), Thomas. 2026. My iPhone Was the Battery! First Pebble HF POTA Activation! Youtube. https://www.youtube.com/watch?v=uhSSjHlPPkc.\n\n\nKM4ACK. 2026. The Best Antenna Isn’t What You Think. Youtube. https://www.youtube.com/watch?v=VfJghE4Np_w.\n\n\nLivestream, Qrp Net. 2026. Sunday QRP SSB Net Livestream (Apr 12). Youtube. https://www.youtube.com/watch?v=ac54Gj7iS98.\n\n\nLong Island CW Club-LICW. 2025. The LICW Method - (Updated: September 2025). Youtube. https://www.youtube.com/watch?v=_Zomn38nZ54.\n\n\nMinds, Tech. 2026. Build Your Own WSPR Beacon for Less Than $20 with an ESP32 and an Si5351! Youtube. https://www.youtube.com/watch?v=s-x50tweSFw.\n\n\nRadio, Km6lyw. 2026. Off-Grid Radio DATA Communications Center! Youtube. https://www.youtube.com/watch?v=trtgnBO8bS8&t=295s.\n\n\nRadio, Q5 Worldwide Ham. 2026. Inside a Caribbean Contest Battle: K5ZD Vs 8P5A | Contest Crew. Youtube. https://www.youtube.com/watch?v=DzSoY3MfXcQ.\n\n\nWorkbench, Ham Radio. 2025. HRWB Ep 253 with Hans Summers G0UPL of QRP Labs. Youtube. https://www.youtube.com/watch?v=_xZ56EXlFRI&t=1166s.\n\n\nZoglmann, Kurt. 2020. Single Letters 15wpm. Youtube. https://www.youtube.com/watch?v=X1RNL5C80xE&list=PL6jaK1F2bhkCCErwWXRmVlHWQC5BUgJhy.",
     "crumbs": [
       "Slides",
       "2026-05-12 mtg"
@@ -737,6 +737,83 @@
     "title": "Web resources for ham learning",
     "section": "Demos",
     "text": "Demos\n\n\n\n\nK. Radio (2026)\n\nContent",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#section-14",
+    "href": "2026-05-12-web-resources.html#section-14",
+    "title": "Web resources for ham learning",
+    "section": "",
+    "text": "Suggested by: W3TM",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#demosrecs",
+    "href": "2026-05-12-web-resources.html#demosrecs",
+    "title": "Web resources for ham learning",
+    "section": "Demos/Recs",
+    "text": "Demos/Recs\n\n\n\n\nKM4ACK (2026)\n\n\n\nAntennas (2026)",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#vendors",
+    "href": "2026-05-12-web-resources.html#vendors",
+    "title": "Web resources for ham learning",
+    "section": "Vendors",
+    "text": "Vendors\n\n\n\n\nFlexRadioSystems (2026)\n\n\n\nDXEngineering (2025)",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#cw",
+    "href": "2026-05-12-web-resources.html#cw",
+    "title": "Web resources for ham learning",
+    "section": "CW",
+    "text": "CW\n\n\n\n\nZoglmann (2020)\n\n\n\nLong Island CW Club-LICW (2025)",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#reddit",
+    "href": "2026-05-12-web-resources.html#reddit",
+    "title": "Web resources for ham learning",
+    "section": "Reddit",
+    "text": "Reddit\n\n\n\n\n\nr/amateurradio\n\n\n\n\n\n\nr/HamRadio",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#substack",
+    "href": "2026-05-12-web-resources.html#substack",
+    "title": "Web resources for ham learning",
+    "section": "Substack",
+    "text": "Substack\n\nhttps://www.zeroretries.org",
+    "crumbs": [
+      "Slides",
+      "2026-05-12 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-05-12-web-resources.html#code",
+    "href": "2026-05-12-web-resources.html#code",
+    "title": "Web resources for ham learning",
+    "section": "Code",
+    "text": "Code\nThis talk was prepared using RStudio 2026.4.0.526 and Quarto 1.8.27. The Quarto format files were rendered to HTML slides using the RevealJS framework. The rendered files are served on the web using GitHub pages.",
     "crumbs": [
       "Slides",
       "2026-05-12 mtg"

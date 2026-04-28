@@ -15,9 +15,10 @@ format:
 ## About
 
 - These slides document some web-based resources that club members find useful.
+- The focus is on YouTube, Reddit, and Substack
 
 ::: {.callout-important}
-The screenshot images may be clicked on to navigate to YouTube.
+The screenshot images may be clicked on to navigate to the sites.
 :::
 
 ## {.scrollable}
@@ -110,6 +111,38 @@ The screenshot images may be clicked on to navigate to YouTube.
 
 *Suggested by*: W3TM
 
+## {.scrollable}
+
+[![](include/img/ask-dave.png)](https://www.youtube.com/@davecasler)
+
+*Suggested by*: W3TM
+
+## Reddit
+
+:::: {.columns}
+::: {.column width=50%}
+[![r/amateurradio](include/img/reddit-amateurradio.png)](https://www.reddit.com/r/amateurradio/)
+:::
+::: {.column width=50%}
+[![r/HamRadio](include/img/reddit-hamRadio.png)](https://www.reddit.com/r/HamRadio/)
+:::
+::::
+
+# {.scrollable}
+
+:::: {.columns}
+::: {.column width=50%}
+[![r/APRS](include/img/reddit-aprs.png)](https://www.reddit.com/r/APRS)
+:::
+::: {.column width=50%}
+[![r/amateursatellites](include/img/reddit-amateur-satellites.png)](https://www.reddit.com/r/amateursatellites)
+:::
+::::
+
+## Substack
+
+![https://www.zeroretries.org](include/img/zero-retries.png)
+
 # A deeper dive
 
 ## DIY
@@ -184,7 +217,40 @@ The screenshot images may be clicked on to navigate to YouTube.
 :::
 ::::
 
+## Vendors
+
+:::: {.columns}
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6PC7ACdW0KQ?si=X84rIrBK3fz0op7n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@FlexRadioSystems2026-xv
+:::
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k_Rc8TUesGw?si=Cd9UG4EAJKIccWP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@DXEngineering2025-yr
+:::
+::::
+
+## CW
+
+:::: {.columns}
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X1RNL5C80xE?si=lT1gwdJ6eP-_yM14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Zoglmann2020-kx
+:::
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Zomn38nZ54?si=seZNlrjIDwRx83er" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Long-Island-CW-Club-LICW2025-vn
+:::
+::::
+
 # Resources
 
-## References
+## Code
 
+This talk was prepared using RStudio 2026.4.0.526 and [Quarto](https://quarto.org) 1.8.27. The Quarto format files were rendered to HTML slides using the [RevealJS](https://revealjs.com) framework. The rendered files are served on the web using [GitHub](https://github.com) pages.
+
+## References
