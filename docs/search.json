@@ -818,5 +818,117 @@
       "Slides",
       "2026-05-12 mtg"
     ]
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#agenda",
+    "href": "2026-05-12-clubhouse-rpt.html#agenda",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Agenda",
+    "text": "Agenda\n\nClubhouse report\nItems for sale\nEquipment purchase proposal\nField Day"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#gear",
+    "href": "2026-05-12-clubhouse-rpt.html#gear",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Gear",
+    "text": "Gear\n\n\n\nNARC-1\nNARC-2\n\n\n\n\n\n\n\nhttps://nittany-amateur-radio-club.github.io/station"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#narc-1",
+    "href": "2026-05-12-clubhouse-rpt.html#narc-1",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "NARC-1",
+    "text": "NARC-1\n\nICOM IC-7610 160-6m 100 W transceiver\nElecraft KPA-1500 amplifier with ATU\nPC with single monitor\nICOM SM-30 desk mic\nFootswitch\nHallibut Electronics contesting console audio interface\nFull software suite"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#narc-2",
+    "href": "2026-05-12-clubhouse-rpt.html#narc-2",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "NARC-2",
+    "text": "NARC-2\n\nFlexRadio Flex 6400M 160-6m 100 W transceiver\nElecraft KPA-1500 amplifier with ATU\nPC with dual monitors\n(On loan) Inrad desk mic\nFootswitch\nHallibut Electronics contesting console audio interface\nFull software suite"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#antennas",
+    "href": "2026-05-12-clubhouse-rpt.html#antennas",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Antennas",
+    "text": "Antennas\n\n75-10m EFHW\n2x Mosley 20m-15m-10m + WARC (17m/12m) Yagi’s\n2x Yaesu rotators + Green Heron rotator controllers"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#recent-activity",
+    "href": "2026-05-12-clubhouse-rpt.html#recent-activity",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Recent activity",
+    "text": "Recent activity\n\nAdvisory group: W3EDP, KD3COO, KD3COP, WA7HUB\nTested mini-PC replacement for NARC1\nUpdated SmartSDR for FlexRadio\nSelected items for Hamvention sale\nInternet solution still in-progress"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#what-is-field-day",
+    "href": "2026-05-12-clubhouse-rpt.html#what-is-field-day",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "What is Field Day?",
+    "text": "What is Field Day?\n\na contest\na social event\na field operating exercise\nan open house for amateur radio\na ton of fun in the rain & sun"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#the-details",
+    "href": "2026-05-12-clubhouse-rpt.html#the-details",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "The details",
+    "text": "The details\n\nSaturday, June 28 - Sunday, June 29 (2:00 PM EDT - 2:00 PM EDT)\nPleasant Gap Fire Company training grounds\n\nClass 2 (transmitters) A1 (alpha), club/non-club portable\nPower: 100 W\nW3YA callsign\n\nFood & drink\n\nIf we do not operate independent of commercial power, we will be designated as A-Commercial."
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#goal-setting-2025",
+    "href": "2026-05-12-clubhouse-rpt.html#goal-setting-2025",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Goal-setting 2025",
+    "text": "Goal-setting 2025\n\nExceed 2024 QSO total (n=336)\n\n Result: n=745\n\nExceed 2024 attendee total (n=37)\n\n Result: n=41\n\nExceed 2024 operator total (n=13)\n\n Result: n=12\n\nHave 75% attendees operate (2024 = 35%)\n\n Result: 29%"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#goal-setting-2026",
+    "href": "2026-05-12-clubhouse-rpt.html#goal-setting-2026",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Goal-setting 2026",
+    "text": "Goal-setting 2026\n\nExceed 2025 operator total (n &gt; 12)\nSupport “playing radio” (rigs, antennas, modes)\n\nSatellite\n2m simplex\n160m\nUnconventional digital modes (SSTV, VarAC, JS8Call)"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#lets-connect-with-radio",
+    "href": "2026-05-12-clubhouse-rpt.html#lets-connect-with-radio",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Let’s connect with radio",
+    "text": "Let’s connect with radio\n\nARRL Field Day 2025 Logo"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#code",
+    "href": "2026-05-12-clubhouse-rpt.html#code",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Code",
+    "text": "Code\nThis talk was prepared using RStudio 2026.4.0.526 and Quarto 1.8.27. The Quarto format files were rendered to HTML slides using the RevealJS framework. The rendered files are served on the web using GitHub pages."
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#references",
+    "href": "2026-05-12-clubhouse-rpt.html#references",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#survey",
+    "href": "2026-05-12-clubhouse-rpt.html#survey",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "Survey",
+    "text": "Survey\n\n\nFigure 2: https://forms.gle/UnVw7CpkLUeizYYB8"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#a-national-resource",
+    "href": "2026-05-12-clubhouse-rpt.html#a-national-resource",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "A National Resource",
+    "text": "A National Resource\n\nARRL Field Day 2026 Logo"
+  },
+  {
+    "objectID": "2026-05-12-clubhouse-rpt.html#narc-field-day",
+    "href": "2026-05-12-clubhouse-rpt.html#narc-field-day",
+    "title": "Clubhouse Report & Field Day Plans",
+    "section": "NARC Field Day",
+    "text": "NARC Field Day\n\nSaturday, June 28 - Sunday, June 29 (2:00 PM EDT - 2:00 PM EDT)\nPleasant Gap Fire Company training grounds\n\nClass 2 (transmitters) A1 (alpha), club/non-club portable\nPower: 100 W\nW3YA callsign\n\nFood & drink\n\nIf we do not operate independent of commercial power, we will be designated as A-Commercial."
   }
 ]

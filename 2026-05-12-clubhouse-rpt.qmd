@@ -1,0 +1,179 @@
+---
+title: "Clubhouse Report & Field Day Plans"
+subtitle: "NARC Membership Meeting • May 12, 2026"
+author: "Rick Gilmore, W3TM"
+format: 
+  revealjs:
+    slide-number: true
+    footer: "Clubhouse 2026-05-12 • [NARC Presentations](index.html)"
+    logo: include/img/NARC-logo.png
+    chalkboard: true
+    multiplex: true
+    bibliography: include/bib/refs.bib
+---
+
+---
+
+```{r}
+#| label: fig-qr-slides
+#| fig-cap: "Link to this presentation"
+url <- "https://nittany-amateur-radio-club.github.io/presentations/2025-06-10-clubhouse-rpt.html"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+
+## Agenda
+
+- Clubhouse report
+- Items for sale
+- Equipment purchase proposal
+- Field Day
+
+# Clubhouse report
+
+## Gear
+
+:::: {.columns}
+::: {.column width="50%"}
+- [NARC-1](https://nittany-amateur-radio-club.github.io/station/narc1.html)
+- [NARC-2](https://nittany-amateur-radio-club.github.io/station/narc2.html)
+:::
+
+::: {.column width="50%"}
+```{r}
+#| fig-cap: "<https://nittany-amateur-radio-club.github.io/station>"
+url <- "https://nittany-amateur-radio-club.github.io/station"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+:::
+::::
+
+## [NARC-1](https://nittany-amateur-radio-club.github.io/station/narc1.html)
+
+- ICOM IC-7610 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with single monitor
+- ICOM SM-30 desk mic
+- Footswitch
+- Hallibut Electronics contesting console audio interface
+- Full [software suite](https://nittany-amateur-radio-club.github.io/station/narc2.html#software-summary)
+
+## [NARC-2](https://nittany-amateur-radio-club.github.io/station/narc2.html)
+
+- [FlexRadio Flex 6400M](https://nittany-amateur-radio-club.github.io/station/flex-6400M.html) 160-6m 100 W transceiver
+- Elecraft KPA-1500 amplifier with ATU
+- PC with dual monitors
+- (On loan) Inrad desk mic
+- Footswitch
+- Hallibut Electronics contesting console audio interface
+- Full [software suite](https://nittany-amateur-radio-club.github.io/station/narc2.html#software-summary)
+
+## Antennas
+
+- 75-10m EFHW
+- 2x Mosley 20m-15m-10m + WARC (17m/12m) Yagi's
+- 2x Yaesu rotators + Green Heron rotator controllers
+
+## Recent activity
+
+- Advisory group: W3EDP, KD3COO, KD3COP, WA7HUB
+- Tested mini-PC replacement for NARC1
+- Updated SmartSDR for FlexRadio
+- Selected items for Hamvention sale
+- Internet solution still in-progress
+
+# Items for sale
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- 2x Palstar HF-Auto high power automatic antenna tuner (1500 W)
+- Contact K3YV or W3TM
+:::
+::: {.column width=50%}
+![](https://static.dxengineering.com/global/images/prod/xlarge/pas-hf-auto_xl.jpg)
+:::
+::::
+
+# Equipment purchase proposal
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- Replace HP all-in-one PCs with mini-PCs
+- \$350-\$400/per unit
+- Configure & use at Field Day
+:::
+::: {.column width=50%}
+![](https://m.media-amazon.com/images/I/51KScHN3CDL._AC_SX679_.jpg)
+:::
+::::
+
+# Field Day
+
+## What is Field Day?
+
+::: {.incremental}
+- a contest
+- a social event
+- a *field* operating exercise
+- an open house for amateur radio
+- a ton of fun in the rain & sun
+:::
+
+## NARC Field Day
+
+- Saturday, June 28 - Sunday, June 29 (2:00 PM EDT - 2:00 PM EDT)
+- **Pleasant Gap Fire Company training grounds**
+  - Class 2 (transmitters) A^[If we do not operate independent of commercial power, we will be designated as A-Commercial.] (alpha), [club/non-club portable](http://www.arrl.org/field-day-rules)
+  - Power: 100 W
+  - W3YA callsign
+- Food & drink
+
+## Goal-setting 2025
+
+::: {.incremental}
+- Exceed 2024 QSO total (*n*=336)
+  - {{< fa thumbs-up >}} Result: *n*=745
+- Exceed 2024 attendee total (*n*=37) 
+  - {{< fa thumbs-up >}} Result: *n*=41 
+- Exceed 2024 operator total (*n*=13)
+  - {{< fa thumbs-down >}} Result: *n*=12
+- Have 75% attendees operate (2024 = 35%)
+  - {{< fa thumbs-down >}} Result: `{r} round(100*12/41, 0)`%
+  
+::: 
+
+## Goal-setting 2026
+
+- Exceed 2025 operator total (*n* > 12)
+- Support "playing radio" (rigs, antennas, modes)
+  - Satellite
+  - 2m simplex
+  - 160m
+  - Unconventional digital modes (SSTV, VarAC, JS8Call)
+  
+---
+
+![ARRL Field Day 2026 Logo](https://www.arrl.org/files/file/Field-Day/2026/Field%20Day%202026%20Logo.jpg){width=50%}
+
+## Survey
+
+```{r}
+#| label: fig-qr-field-day-survey
+#| fig-cap: <https://forms.gle/UnVw7CpkLUeizYYB8>
+url <- "https://forms.gle/UnVw7CpkLUeizYYB8"
+code <- qrcode::qr_code(url)
+plot(code)
+```
+
+# Resources
+
+## Code
+
+This talk was prepared using RStudio 2026.4.0.526 and [Quarto](https://quarto.org) 1.8.27. The Quarto format files were rendered to HTML slides using the [RevealJS](https://revealjs.com) framework. The rendered files are served on the web using [GitHub](https://github.com) pages.
+
+## References
