@@ -17,7 +17,7 @@ format:
 ```{r}
 #| label: fig-qr-slides
 #| fig-cap: "Link to this presentation"
-url <- "https://nittany-amateur-radio-club.github.io/presentations/2025-06-10-clubhouse-rpt.html"
+url <- "https://nittany-amateur-radio-club.github.io/presentations/2026-05-12-clubhouse-rpt.html"
 code <- qrcode::qr_code(url)
 plot(code)
 ```
