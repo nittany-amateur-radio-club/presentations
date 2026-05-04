@@ -83,20 +83,6 @@ plot(code)
 - Selected items for Hamvention sale
 - Internet solution still in-progress
 
-# Items for sale
-
----
-
-:::: {.columns}
-::: {.column width=50%}
-- 2x Palstar HF-Auto high power automatic antenna tuner (1500 W)
-- Contact K3YV or W3TM
-:::
-::: {.column width=50%}
-![](https://static.dxengineering.com/global/images/prod/xlarge/pas-hf-auto_xl.jpg)
-:::
-::::
-
 # Equipment purchase proposal
 
 ---
@@ -126,20 +112,37 @@ plot(code)
 
 ## NARC Field Day
 
+:::: {.columns}
+::: {.column width=50%}
 - Saturday, June 28 - Sunday, June 29 (2:00 PM EDT - 2:00 PM EDT)
-- **Pleasant Gap Fire Company training grounds**
-  - Class 2 (transmitters) A^[If we do not operate independent of commercial power, we will be designated as A-Commercial.] (alpha), [club/non-club portable](http://www.arrl.org/field-day-rules)
-  - Power: 100 W
-  - W3YA callsign
+- Pleasant Gap Fire Company training grounds
+:::
+::: {.column width=50%}
+![475 Robinson Lane, Pleasant Gap, PA 16823](include/img/pleasant-gap-fire-company.png){width="80%"}
+:::
+::::
+
+## NARC Field Day
+
+:::: {.columns}
+::: {.column width=50%}
+- Class 2 (transmitters) A^[If we do not operate independent of commercial power, we will be designated as A-Commercial.] (alpha), [club/non-club portable](http://www.arrl.org/field-day-rules)
+- Power: 100 W
+- W3YA callsign
 - Food & drink
+:::
+::: {.column width=50%}
+![A good day to play radio.](include/img/narc-field-day-antennas.jpg){width="75%"}
+:::
+::::
 
 ## Goal-setting 2025
 
 ::: {.incremental}
 - Exceed 2024 QSO total (*n*=336)
-  - {{< fa thumbs-up >}} Result: *n*=745
+  - {{< fa thumbs-up >}} Result: *n*=745 (> 2025 median: 109)
 - Exceed 2024 attendee total (*n*=37) 
-  - {{< fa thumbs-up >}} Result: *n*=41 
+  - {{< fa thumbs-up >}} Result: *n*=41 (> 2025 median: 1)
 - Exceed 2024 operator total (*n*=13)
   - {{< fa thumbs-down >}} Result: *n*=12
 - Have 75% attendees operate (2024 = 35%)
@@ -150,6 +153,7 @@ plot(code)
 ## Goal-setting 2026
 
 - Exceed 2025 operator total (*n* > 12)
+- "It's not a contest"
 - Support "playing radio" (rigs, antennas, modes)
   - Satellite
   - 2m simplex
