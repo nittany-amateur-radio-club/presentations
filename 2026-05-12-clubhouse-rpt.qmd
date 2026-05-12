@@ -114,7 +114,7 @@ plot(code)
 
 :::: {.columns}
 ::: {.column width=50%}
-- Saturday, June 28 - Sunday, June 29 (2:00 PM EDT - 2:00 PM EDT)
+- Saturday, June 27 - Sunday, June 28 (2:00 PM EDT - 2:00 PM EDT)
 - Pleasant Gap Fire Company training grounds
 :::
 ::: {.column width=50%}
