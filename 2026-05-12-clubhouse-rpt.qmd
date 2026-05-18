@@ -115,7 +115,7 @@ plot(code)
 :::: {.columns}
 ::: {.column width=50%}
 - Saturday, June 27 - Sunday, June 28 (2:00 PM EDT - 2:00 PM EDT)
-- Pleasant Gap Fire Company training grounds
+- Pleasant Gap Fire Company ~~training~~ *Carnival* Grounds
 :::
 ::: {.column width=50%}
 ![[475 Robinson Lane, Pleasant Gap, PA 16823](https://www.google.com/maps/place/475+Robinson+Ln,+Pleasant+Gap,+PA+16823/@40.8663897,-77.7594325,16z/data=!3m1!4b1!4m6!3m5!1s0x89cea4a7d91e5081:0xb1f909599db2ba58!8m2!3d40.8663897!4d-77.7568522!16s%2Fg%2F11bw40_hkm!5m1!1e4?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D)](include/img/pleasant-gap-fire-company.png){width="80%"}
