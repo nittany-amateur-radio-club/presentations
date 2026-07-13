@@ -14,12 +14,16 @@ format:
 
 ## About
 
-- These slides document some web-based resources that club members find useful.
-- The focus is on YouTube, Reddit, and Substack
+- These slides document some internet-based resources that club members might find useful.
+- The focus is on YouTube, Reddit, and Substack, but I also mention groups.io.
 
 ::: {.callout-important}
 The screenshot images may be clicked on to navigate to the sites.
 :::
+
+## The challenge
+
+![giphy.com](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnJnbW9mZXIzeTNkeTZjbDNocmU5MDJ1cHd3Z2hqbjZuZjBsYm51OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Roof5pjIpo1qoRAHbW/giphy.gif)
 
 ## {.scrollable}
 
@@ -114,6 +118,12 @@ The screenshot images may be clicked on to navigate to the sites.
 ## {.scrollable}
 
 [![](include/img/ask-dave.png)](https://www.youtube.com/@davecasler)
+
+*Suggested by*: W3TM
+
+## {.scrollable}
+
+[![](include/img/oh8stn.png)](https://www.youtube.com/@OH8STN)
 
 *Suggested by*: W3TM
 
@@ -244,6 +254,17 @@ The screenshot images may be clicked on to navigate to the sites.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Zomn38nZ54?si=seZNlrjIDwRx83er" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 @Long-Island-CW-Club-LICW2025-vn
+:::
+::::
+
+## Rig and software-specific info
+
+:::: {.columns}
+::: {.column width=50%}
+![<https://groups.io/g/direwolf>](include/img/direwolf.png)
+:::
+::: {.column width=50%}
+![<https://groups.io/g/panbems> Sunday 0730 ET, 3580 MHz](include/img/panbems.png)
 :::
 ::::
 
