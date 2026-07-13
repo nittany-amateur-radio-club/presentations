@@ -1,11 +1,11 @@
 ---
 title: "Web resources for ham learning"
-subtitle: "NARC Membership Meeting • May 12, 2026"
+subtitle: "NARC Membership Meeting • July 14, 2026"
 author: "Rick Gilmore, W3TM"
 format: 
   revealjs:
     slide-number: true
-    footer: "Web resources 2026-05-12 • [NARC Presentations](index.html)"
+    footer: "Web resources 2026-07-14 • [NARC Presentations](index.html)"
     logo: include/img/NARC-logo.png
     chalkboard: true
     # multiplex: true
@@ -20,6 +20,14 @@ format:
 ::: {.callout-important}
 The screenshot images may be clicked on to navigate to the sites.
 :::
+
+##
+
+```{r}
+#| label: fig-talk-qr-code
+#| fig-cap: "<https://nittany-amateur-radio-club.github.io/presentations/2026-07-14-web-resources.html>"
+qrcode::qr_code("https://nittany-amateur-radio-club.github.io/presentations/2026-07-14-clubhouse-rpt.html#/title-slide") |> plot()
+```
 
 ## The challenge
 

@@ -18,6 +18,8 @@ website:
       - index.qmd
       - section: "Slides"
         contents:
+          - text: "2026-07-14 mtg"
+            href: 2026-07-14-web-resources.qmd
           - text: "2026-05-12 mtg"
             href: 2026-05-12-clubhouse-rpt.qmd
           - text: "2025-06-10 mtg"
