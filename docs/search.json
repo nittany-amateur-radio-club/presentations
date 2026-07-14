@@ -332,7 +332,7 @@
     "href": "2026-07-14-web-resources.html#code",
     "title": "Web resources for ham learning",
     "section": "Code",
-    "text": "Code\nThis talk was prepared using RStudio 2026.4.0.526 and Quarto 1.8.27. The Quarto format files were rendered to HTML slides using the RevealJS framework. The rendered files are served on the web using GitHub pages.",
+    "text": "Code\nThis talk was prepared using RStudio 2026.7.0.139 and Quarto 1.8.27. The Quarto format files were rendered to HTML slides using the RevealJS framework. The rendered files are served on the web using GitHub pages.",
     "crumbs": [
       "Slides",
       "2026-07-14 mtg"
@@ -343,7 +343,7 @@
     "href": "2026-07-14-web-resources.html#references",
     "title": "Web resources for ham learning",
     "section": "References",
-    "text": "References\n\n\n\n\nAntennas, Kb9vbr. 2026. Two Antennas Tested in Real Conditions - HF-010 Vs PERformer! Youtube. https://www.youtube.com/watch?v=Ygu0jv6Pb5E.\n\n\nDXEngineering. 2025. Working Ham Radio Satellites with a Portable Handheld Yagi Antenna. Youtube. https://www.youtube.com/watch?v=k_Rc8TUesGw&t=16s.\n\n\nFlexRadioSystems. 2026. Is SDR Really This Easy? Mike KI8R’s First Look at the FLEX-8000. Youtube. https://www.youtube.com/watch?v=6PC7ACdW0KQ.\n\n\n(k4swl), Thomas. 2026. My iPhone Was the Battery! First Pebble HF POTA Activation! Youtube. https://www.youtube.com/watch?v=uhSSjHlPPkc.\n\n\nKM4ACK. 2026. The Best Antenna Isn’t What You Think. Youtube. https://www.youtube.com/watch?v=VfJghE4Np_w.\n\n\nLivestream, Qrp Net. 2026. Sunday QRP SSB Net Livestream (Apr 12). Youtube. https://www.youtube.com/watch?v=ac54Gj7iS98.\n\n\nLong Island CW Club-LICW. 2025. The LICW Method - (Updated: September 2025). Youtube. https://www.youtube.com/watch?v=_Zomn38nZ54.\n\n\nMinds, Tech. 2026. Build Your Own WSPR Beacon for Less Than $20 with an ESP32 and an Si5351! Youtube. https://www.youtube.com/watch?v=s-x50tweSFw.\n\n\nRadio, Km6lyw. 2026. Off-Grid Radio DATA Communications Center! Youtube. https://www.youtube.com/watch?v=trtgnBO8bS8&t=295s.\n\n\nRadio, Q5 Worldwide Ham. 2026. Inside a Caribbean Contest Battle: K5ZD Vs 8P5A | Contest Crew. Youtube. https://www.youtube.com/watch?v=DzSoY3MfXcQ.\n\n\nWorkbench, Ham Radio. 2025. HRWB Ep 253 with Hans Summers G0UPL of QRP Labs. Youtube. https://www.youtube.com/watch?v=_xZ56EXlFRI&t=1166s.\n\n\nZoglmann, Kurt. 2020. Single Letters 15wpm. Youtube. https://www.youtube.com/watch?v=X1RNL5C80xE&list=PL6jaK1F2bhkCCErwWXRmVlHWQC5BUgJhy.",
+    "text": "References\n\n\n\n\n3Blue1Brown. 2019. But What Is a Fourier Series? From Heat Flow to Drawing with Circles | DE4. YouTube. https://www.youtube.com/watch?v=r6sGWTCMz2k&t=1341s.\n\n\nAntennas, Kb9vbr. 2026. Two Antennas Tested in Real Conditions - HF-010 Vs PERformer! YouTube. https://www.youtube.com/watch?v=Ygu0jv6Pb5E.\n\n\nDXEngineering. 2025. Working Ham Radio Satellites with a Portable Handheld Yagi Antenna. YouTube. https://www.youtube.com/watch?v=k_Rc8TUesGw&t=16s.\n\n\nFlexRadioSystems. 2026. Is SDR Really This Easy? Mike KI8R’s First Look at the FLEX-8000. YouTube. https://www.youtube.com/watch?v=6PC7ACdW0KQ.\n\n\n(k4swl), Thomas. 2026. My iPhone Was the Battery! First Pebble HF POTA Activation! YouTube. https://www.youtube.com/watch?v=uhSSjHlPPkc.\n\n\nKM4ACK. 2026. The Best Antenna Isn’t What You Think. YouTube. https://www.youtube.com/watch?v=VfJghE4Np_w.\n\n\nLivestream, Qrp Net. 2026. Sunday QRP SSB Net Livestream (Apr 12). YouTube. https://www.youtube.com/watch?v=ac54Gj7iS98.\n\n\nLong Island CW Club-LICW. 2025. The LICW Method - (Updated: September 2025). YouTube. https://www.youtube.com/watch?v=_Zomn38nZ54.\n\n\nMinds, Tech. 2026. Build Your Own WSPR Beacon for Less Than $20 with an ESP32 and an Si5351! YouTube. https://www.youtube.com/watch?v=s-x50tweSFw.\n\n\nRadio, Km6lyw. 2026. Off-Grid Radio DATA Communications Center! YouTube. https://www.youtube.com/watch?v=trtgnBO8bS8&t=295s.\n\n\nRadio, Q5 Worldwide Ham. 2026. Inside a Caribbean Contest Battle: K5ZD Vs 8P5A | Contest Crew. YouTube. https://www.youtube.com/watch?v=DzSoY3MfXcQ.\n\n\nVeritasium. 2026. The Scariest Chart in Electrical Engineering. YouTube. https://www.youtube.com/watch?v=GK2pZ_oVU1o.\n\n\nWorkbench, Ham Radio. 2025. HRWB Ep 253 with Hans Summers G0UPL of QRP Labs. YouTube. https://www.youtube.com/watch?v=_xZ56EXlFRI&t=1166s.\n\n\nZoglmann, Kurt. 2020. Single Letters 15wpm. YouTube. https://www.youtube.com/watch?v=X1RNL5C80xE&list=PL6jaK1F2bhkCCErwWXRmVlHWQC5BUgJhy.",
     "crumbs": [
       "Slides",
       "2026-07-14 mtg"
@@ -1005,5 +1005,27 @@
     "title": "APRS",
     "section": "iGate",
     "text": "iGate\nSends packets to APRS-IS.\nMay or may not digipeat."
+  },
+  {
+    "objectID": "2026-07-14-web-resources.html#website-podcast",
+    "href": "2026-07-14-web-resources.html#website-podcast",
+    "title": "Web resources for ham learning",
+    "section": "Website + podcast",
+    "text": "Website + podcast\n\nAmateur Radio Newsline",
+    "crumbs": [
+      "Slides",
+      "2026-07-14 mtg"
+    ]
+  },
+  {
+    "objectID": "2026-07-14-web-resources.html#other-science",
+    "href": "2026-07-14-web-resources.html#other-science",
+    "title": "Web resources for ham learning",
+    "section": "Other science",
+    "text": "Other science\n\n\n\n\nVeritasium (2026)\n\n\n\n3Blue1Brown (2019)",
+    "crumbs": [
+      "Slides",
+      "2026-07-14 mtg"
+    ]
   }
 ]

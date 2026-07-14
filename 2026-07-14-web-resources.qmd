@@ -161,6 +161,10 @@ qrcode::qr_code("https://nittany-amateur-radio-club.github.io/presentations/2026
 
 ![https://www.zeroretries.org](include/img/zero-retries.png)
 
+## Website + podcast
+
+![[Amateur Radio Newsline](https://arnewsline.org)](include/img/arnewsline.png)
+
 # A deeper dive
 
 ## DIY
@@ -276,10 +280,25 @@ qrcode::qr_code("https://nittany-amateur-radio-club.github.io/presentations/2026
 :::
 ::::
 
+## Other science
+
+:::: {.columns}
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GK2pZ_oVU1o?si=AAH7KvJfkfTKPOgB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Veritasium2026-zc
+:::
+::: {.column width=50%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r6sGWTCMz2k?si=ZRXuA5dK6OvWd4ON" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@3Blue1Brown2019-ci
+:::
+::::
+
 # Resources
 
 ## Code
 
-This talk was prepared using RStudio 2026.4.0.526 and [Quarto](https://quarto.org) 1.8.27. The Quarto format files were rendered to HTML slides using the [RevealJS](https://revealjs.com) framework. The rendered files are served on the web using [GitHub](https://github.com) pages.
+This talk was prepared using RStudio 2026.7.0.139 and [Quarto](https://quarto.org) 1.8.27. The Quarto format files were rendered to HTML slides using the [RevealJS](https://revealjs.com) framework. The rendered files are served on the web using [GitHub](https://github.com) pages.
 
 ## References
